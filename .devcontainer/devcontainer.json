@@ -1,0 +1,10 @@
+{
+	"name": "pico-code",
+	"image": "localhost/pico-code:latest",
+	"extensions": [
+		"llvm-vs-code-extensions.vscode-clangd",
+		"twxs.cmake",
+	],
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
+	"workspaceFolder": "/workspace",
+}

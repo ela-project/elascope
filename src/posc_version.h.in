@@ -1,0 +1,15 @@
+#ifndef _VERSION_H
+#define _VERSION_H
+
+#cmakedefine PROJECT_VERSION "@PROJECT_VERSION@ (@CMAKE_BUILD_TYPE@)"
+#cmakedefine COMPILE_DATE "@COMPILE_DATE@"
+
+#ifndef POSC_VERSION
+#define POSC_VERSION "NaN"
+#endif
+
+#ifndef POSC_DATE
+#define POSC_DATE "00.00.0000"
+#endif
+
+#endif

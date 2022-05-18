@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"clangd.arguments": [
+			"--query-driver=/usr/bin/arm-none-eabi-g++,/usr/bin/arm-none-eabi-gcc"
+		],
+	}
+}

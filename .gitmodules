@@ -1,0 +1,6 @@
+[submodule "lib/etl"]
+	path = lib/etl
+	url = https://github.com/ETLCPP/etl.git
+[submodule "lib/pico-sdk"]
+	path = lib/pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
