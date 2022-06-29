@@ -10,7 +10,7 @@ dt::Terminal dterminal{dataplotter};
 
 namespace sh {
 dt::StaticPart dtheader{3,
-                        "Pico Osc"
+                        "ELAscope"
                         "\e[1E\e[42m<\e[0m\e[4CAbout\e[3C\e[42m>\e[0m"
                         "\e[1EPinout:"
                         "\e[1E CH1 - GP26"
@@ -27,7 +27,7 @@ constexpr dt::StaticPart* dterminal_parts[]{&dtheader};
 
 namespace s0 {
 dt::StaticPart dtheader{3,
-                        "Pico Osc\e[5C\e[42m?\e[0m"
+                        "ELAscope\e[5C\e[42m?\e[0m"
                         "\e[1E\e[42m<\e[0m  Sampling  \e[42m>\e[0m"};
 
 dt::FloatNumber dttrigger_level{1, 0, 1, 11, 0.5f, false};
@@ -91,7 +91,7 @@ constexpr dt::StaticPart* dterminal_parts[]{&dtheader,          &dttrigger_level
 
 namespace s1 {
 dt::StaticPart dtheader{3,
-                        "Pico Osc\e[5C\e[42m?\e[0m"
+                        "ELAscope\e[5C\e[42m?\e[0m"
                         "\e[1E\e[42m<\e[0m  ADC Freq  \e[42m>\e[0m"};
 
 PreciseFreq precise_adc_freq{"KJIHGFED", "kjihgfed", 73942, 50000000};
@@ -122,7 +122,7 @@ constexpr dt::StaticPart* dterminal_parts[]{&dtheader, &dtfreq_prec_part, &dtsam
 
 namespace s2 {
 dt::StaticPart dtheader{3,
-                        "Pico Osc\e[5C\e[46m?\e[0m"
+                        "ELAscope\e[5C\e[46m?\e[0m"
                         "\e[1E\e[46m<\e[0m  PWM Gen   \e[46m>\e[0m"};
 
 dt::IntNumber dtpwm_duty_disp{1, 2, 11, 3, 0, false};
@@ -177,7 +177,7 @@ constexpr dt::StaticPart* dterminal_parts[]{&dtheader,      &dtpwm_func_selector
 
 namespace s3 {
 dt::StaticPart dtheader{3,
-                        "Pico Osc\e[5C\e[42m?\e[0m"
+                        "ELAscope\e[5C\e[42m?\e[0m"
                         "\e[1E\e[42m<\e[0m  Settings  \e[42m>\e[0m"};
 
 dt::DTButton div_fract_toggle{2, 0, 'a', false};

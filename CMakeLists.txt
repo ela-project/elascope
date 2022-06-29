@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.16)
 
 include(lib/pico-sdk/pico_sdk_init.cmake)
 
-project(pico-osc VERSION 0.5.1)
+project(elascope VERSION 0.5.1)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions -fno-rtti")
