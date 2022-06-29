@@ -4,6 +4,7 @@
 #include <cstddef>
 #include <cstdio>
 #include "hardware/dma.h"
+#include "hardware/gpio.h"
 #include "hardware/structs/dma.h"
 #include "pico/stdlib.h"
 #include "hardware/adc.h"
@@ -106,7 +107,7 @@ enum class ADCState_t : uint8_t {
 };
 
 int main() {
-    constexpr unsigned int led_pin{25}, pwm_pin{16};
+    constexpr unsigned int led_pin{25}, pwm_pin{16}, ps_pin{23};
     uint pwm_timer;
     DataForCore1 datac1_private;
     bool usb_was_connected{false};
@@ -125,7 +126,14 @@ int main() {
     gpio_init(led_pin);
     gpio_set_dir(led_pin, true);
 
+    gpio_init(ps_pin);
+    gpio_set_dir(ps_pin, true);
+
+    gpio_put(ps_pin, !s3::div_ps_toggle.is_pressed());
+
     pwm_manager.init(pwm_pin);
+
+    pwm_manager.set_frac_div(s3::div_fract_toggle.is_pressed());
 
     for (dt::MultiButton *selector : s0::selector_array) {
         s0::handle_selector_values(selector, datac1_private);
@@ -324,6 +332,9 @@ int main() {
                 } else if (current_screen == s1::index) {
                     if (rx_char == 'A') {
                         uint32_t adc_div_32 = adc::div_from_samplerate(s1::precise_adc_freq.get_freq());
+                        if (!s3::div_fract_toggle.is_pressed()) {
+                            adc_div_32 &= ~(ADC_DIV_FRAC_BITS);
+                        }
                         s1::dtadcdiv0.set_value(adc::get_div_int_u32(adc_div_32));
                         s1::dtadcdiv1.set_value(adc::get_div_frac_u32(adc_div_32));
                         s0::dtsamplerate_disp.set_value(adc::samplerate_form_div(adc_div_32));
@@ -368,6 +379,14 @@ int main() {
                         pressed_selector = get_pressed_selector(rx_char, s2::selector_array);
 
                         s2::handle_selector_values(pressed_selector, pwm_manager);
+                    }
+                } else if (current_screen == s3::index) {
+                    if (rx_char == s3::div_fract_toggle.get_button_char()) {
+                        s3::div_fract_toggle.button_toggle();
+                        pwm_manager.set_frac_div(s3::div_fract_toggle.is_pressed());
+                    } else if (rx_char == s3::div_ps_toggle.get_button_char()) {
+                        s3::div_ps_toggle.button_toggle();
+                        gpio_put(ps_pin, !s3::div_ps_toggle.is_pressed());
                     }
                 }
             }

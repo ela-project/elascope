@@ -175,9 +175,24 @@ constexpr dt::StaticPart* dterminal_parts[]{&dtheader,      &dtpwm_func_selector
 
 }  // namespace s2
 
+namespace s3 {
+dt::StaticPart dtheader{3,
+                        "Pico Osc\e[5C\e[42m?\e[0m"
+                        "\e[1E\e[42m<\e[0m  Settings  \e[42m>\e[0m"};
+
+dt::DTButton div_fract_toggle{2, 0, 'a', false};
+dt::StaticPart div_fract_toggle_part{1, "\e[3CFrac div", &div_fract_toggle};
+
+dt::DTButton div_ps_toggle{2, 0, 'b', true};
+dt::StaticPart div_pwr_toggle_part{1, "\e[3CPower save", &div_ps_toggle};
+
+constexpr dt::StaticPart* dterminal_parts[]{&dtheader, &div_fract_toggle_part, &div_pwr_toggle_part};
+}  // namespace s3
+
 void init_dterminal() {
     init_dterminal_base(dterminal, sh::dterminal_parts, sh::index);
     init_dterminal_base(dterminal, s0::dterminal_parts, s0::index);
     init_dterminal_base(dterminal, s1::dterminal_parts, s1::index);
     init_dterminal_base(dterminal, s2::dterminal_parts, s2::index);
+    init_dterminal_base(dterminal, s3::dterminal_parts, s3::index);
 }

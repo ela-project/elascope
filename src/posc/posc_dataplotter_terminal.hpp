@@ -198,7 +198,7 @@ class Terminal {
     static constexpr size_t tx_buffer_size{200};
     static constexpr uint8_t help_screen{0};
     static constexpr uint8_t start_screen{1};
-    static constexpr uint8_t number_of_screens{3};
+    static constexpr uint8_t number_of_screens{4};
 
    private:
     char tx_buffer[tx_buffer_size];

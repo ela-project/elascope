@@ -81,6 +81,14 @@ inline constexpr dt::MultiButton *selector_array[]{&dtpwm_func_selector, &dtpwmm
 
 }  // namespace s2
 
+namespace s3 {
+inline constexpr uint8_t index{dt::Terminal::start_screen + 3};
+
+extern dt::DTButton div_fract_toggle;
+extern dt::DTButton div_ps_toggle;
+
+}
+
 template <size_t ARRAY_SIZE>
 dt::MultiButton *get_pressed_selector(signed char rx_char, dt::MultiButton *const (&selector_array)[ARRAY_SIZE]) {
     int selector_index;
