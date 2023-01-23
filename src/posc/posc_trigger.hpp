@@ -1,6 +1,7 @@
 #pragma once
 #include <stddef.h>
 #include <stdint.h>
+#include "pico/types.h"
 #include "posc_adc.hpp"
 
 namespace trig {
@@ -28,7 +29,8 @@ class Settings {
 
     enum class Edge : uint8_t { RISING, FALLING };
 
-    Settings(uint16_t max_raw = max_raw_u12) : _max_raw_level{max_raw}, _trigger_level_mV{500}, _pretrigger_percent(20), _trigger_edge{Edge::RISING} {
+    Settings(uint16_t max_raw = max_raw_u12)
+        : _max_raw_level{max_raw}, _trigger_level_mV{500}, _pretrigger_percent(20), _trigger_edge{Edge::RISING}, _trigger_channel{0} {
         set_raw_level();
     }
 
@@ -110,6 +112,14 @@ class Settings {
         return (overall_count * _pretrigger_percent) / 100;
     }
 
+    void set_trigger_channel(uint channel) {
+        if (channel < 4) _trigger_channel = channel;
+    }
+
+    uint get_trigger_channel() {
+        return _trigger_channel;
+    }
+
    private:
     void set_raw_level() {
         uint32_t temp = (static_cast<uint32_t>(_max_raw_level) * _trigger_level_mV) / (max_voltage_mV / 10);
@@ -122,5 +132,6 @@ class Settings {
     uint16_t _trigger_level_raw;
     uint8_t _pretrigger_percent;
     Edge _trigger_edge;
+    uint _trigger_channel;
 };
 }  // namespace trig
