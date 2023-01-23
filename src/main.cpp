@@ -153,6 +153,8 @@ int main() {
     s2::precise_pwm_freq.set_value(pwm_manager.get_freq());
     s2::update_all_displays(pwm_manager);
 
+    datac1_private.number_of_channels = 1;
+
     datac1_glob.lock_blocking();
     datac1_glob = datac1_private;
     datac1_glob.unlock();

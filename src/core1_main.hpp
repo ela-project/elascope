@@ -89,6 +89,7 @@ class DataForCore1 : public MulticoreData {
     size_t posttrigger_samples;
     size_t number_of_samples;
     uint32_t adc_div;
+    uint number_of_channels;
     TriggerSettings trigger_settings;
 };
 
