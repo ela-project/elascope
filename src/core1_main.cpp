@@ -54,6 +54,8 @@ void core1_main() {
     uint32_t array_index;
     uint32_t samples[2];
     core0_message c0msg{STOP_ADC};
+    uint32_t current_channel{0};
+    size_t trigger_channel_index_div{1};
 
     const int adc_chan = dma_claim_unused_channel(true);
     const int ctrl_chan = dma_claim_unused_channel(true);
@@ -88,6 +90,7 @@ void core1_main() {
     adc_init();
     adc_gpio_init(adc0_pin);
     adc_select_input(0);
+    adc_set_round_robin(0);
     adc_set_clkdiv(0.0f);
 
     send_msg_to_core0(CORE1_STARTED);
@@ -120,6 +123,15 @@ void core1_main() {
 
                 datac0_private.set_array1(adc_buffer_u16, datac1_glob.number_of_samples, 0);
                 datac0_private.trigger_index = 0;
+
+                // TODO: Ability to choose which channels in particular are on
+                // How many channels are enabled 0 - 4
+                adc_set_round_robin(adc::get_round_robin_mask(datac1_glob.number_of_channels));
+
+                // TODO: Select trigger input as first
+                adc_select_input(0);  // ADC should always start with channel 0
+
+                trigger_channel_index_div = adc::get_round_robin_index_divider(datac1_glob.number_of_channels);
 
                 datac1_glob.unlock();
 
@@ -168,9 +180,14 @@ void core1_main() {
              */
             if (current_tx_count != dma::get_transfer_count(adc_chan)) {
                 current_tx_count = dma::get_transfer_count(adc_chan);
+
+                // TODO: Solve for edge case where processor misses a sample
+                current_channel = (current_channel + 1) % trigger_channel_index_div;
+
                 if (wait_for_next_cycle && current_tx_count > end_tx_count) {
                     wait_for_next_cycle = false;
                 }
+
                 if (!dma_cycle_forever && !wait_for_next_cycle && current_tx_count <= end_tx_count) {
                     adc_run(false);
                     adc_done = true;
@@ -179,31 +196,34 @@ void core1_main() {
 #endif
                 } else if (!trigger_detected && (current_tx_count < pretring_tx_count || ctrl_channel_trigered) && current_tx_count < adc_buffer_size_u16) {
                     array_index = adc_buffer_size_u16 - current_tx_count - 1;
-                    samples[1] = adc_buffer_u16[array_index];
-                    if (triggersettings_private.detect_edge_raw(samples[0], samples[1])) {
-                        if (current_tx_count < posttrig_samples) {
-                            second_cycle_tx_count = (posttrig_samples - current_tx_count);
-                            end_tx_count = adc_buffer_size_u16 - second_cycle_tx_count;
+                    // Check for trigger only in channel 0 samples
+                    if (current_channel == 0) {
+                        samples[1] = adc_buffer_u16[array_index];
+                        if (triggersettings_private.detect_edge_raw(samples[0], samples[1])) {
+                            if (current_tx_count < posttrig_samples) {
+                                second_cycle_tx_count = (posttrig_samples - current_tx_count);
+                                end_tx_count = adc_buffer_size_u16 - second_cycle_tx_count;
 #ifndef NDEBUG
-                            debug_data.second_cycle = second_cycle_tx_count;
+                                debug_data.second_cycle = second_cycle_tx_count;
 #endif
-                            wait_for_next_cycle = true;
+                                wait_for_next_cycle = true;
+                                dma_cycle_forever = false;
+                                ctrl_chan_adc_write = adc_buffer_addr;
+                                // dma_channel_set_trans_count(adc_chan, second_cycle_tx_count, true);
+                            } else {
+                                end_tx_count = current_tx_count - posttrig_samples;
+                                ctrl_chan_adc_write = 0;
+                            }
                             dma_cycle_forever = false;
-                            ctrl_chan_adc_write = adc_buffer_addr;
-                            // dma_channel_set_trans_count(adc_chan, second_cycle_tx_count, true);
-                        } else {
-                            end_tx_count = current_tx_count - posttrig_samples;
-                            ctrl_chan_adc_write = 0;
-                        }
-                        dma_cycle_forever = false;
-                        trigger_detected = true;
+                            trigger_detected = true;
 
 #ifndef NDEBUG
-                        debug_data.trigger_detected = true;
+                            debug_data.trigger_detected = true;
 #endif
-                    }
+                        }
 
-                    samples[0] = samples[1];
+                        samples[0] = samples[1];
+                    }
                 }
             }
 
