@@ -46,7 +46,7 @@ void dma_irq_handler() {
 void core1_main() {
     DataForCore0 datac0_private;
     trig::Settings triggersettings_private;
-    constexpr uint adc0_pin{26};
+    constexpr uint adc0_pin{26}, adc1_pin{27}, adc2_pin{28}, adc3_pin{29};
     bool adc_running, trigger_detected, adc_done;
     uint32_t end_tx_count, pretring_tx_count, current_tx_count;
     bool wait_for_next_cycle;
@@ -89,6 +89,9 @@ void core1_main() {
 
     adc_init();
     adc_gpio_init(adc0_pin);
+    adc_gpio_init(adc1_pin);
+    adc_gpio_init(adc2_pin);
+    adc_gpio_init(adc3_pin);
     adc_select_input(0);
     adc_set_round_robin(0);
     adc_set_clkdiv(0.0f);
