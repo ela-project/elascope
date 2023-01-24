@@ -1,5 +1,6 @@
 #include "pico/stdlib.h"
 #include "posc_comms.hpp"
+#include "posc_dterminal_dynamic.hpp"
 #include "terminal_variables.hpp"
 #include "posc_adc.hpp"
 #include "posc_version.h"
@@ -14,10 +15,9 @@ dt::StaticPart dtheader{3,
                         "\e[1E\e[42m<\e[0m\e[4CAbout\e[3C\e[42m>\e[0m"
                         "\e[1EPinout:"
                         "\e[1E CH1 - GP26"
+                        "\e[1E CH2 - GP27"
                         "\e[1E PWM - GP16"
-                        "\e[2EVersion:\e[1E " PROJECT_VERSION
-                        "\e[1E " CMAKE_BUILD_TYPE
-                        "\e[1ECompiled:\e[1E " COMPILE_DATE
+                        "\e[2EVersion:\e[1E " PROJECT_VERSION "\e[1E " CMAKE_BUILD_TYPE "\e[1ECompiled:\e[1E " COMPILE_DATE
                         "\e[2ECreated by:\e[1E Vít Vaněček"
                         "\e[2E Czech\e[1E Technical\e[1E University\e[1E in Prague"
                         "\e[2E Faculty of\e[1E Electrical\e[1E Engineering"
@@ -32,16 +32,23 @@ dt::StaticPart dtheader{3,
                         "ELAscope\e[5C\e[42m?\e[0m"
                         "\e[1E\e[42m<\e[0m  Sampling  \e[42m>\e[0m"};
 
-dt::FloatNumber dttrigger_level{1, 0, 1, 11, 0.5f, false};
-dt::StaticPart dttrigger_level_part{1,
+dt::MultiButton dtchannel{2, 1, "ab", 0, comm::ansi::btn_pressed_str_green};
+dt::StaticPart dtchannel_part{4,
+                              "Channel:"
+                              "\e[1E\e[3CCH1"
+                              "\e[1E\e[3CCH1+2",
+                              &dtchannel};
+
+dt::FloatNumber dttrigger_level{1, 1, 1, 10, 0.5f, false};
+dt::StaticPart dttrigger_level_part{2,
                                     "Trigger:"
-                                    "\e[42m-\e[3C\e[0mV\e[42m+\e[0m",
+                                    "\e[1E\e[7C\e[42m-\e[3C\e[0mV\e[42m+\e[0m",
                                     &dttrigger_level};
 
-dt::IntNumber dtpretrigger{1, 0, 12, 2, 0, false};
-dt::StaticPart dtpretrigger_part{1,
+dt::IntNumber dtpretrigger{1, 1, 11, 2, 0, false};
+dt::StaticPart dtpretrigger_part{2,
                                  "Pretrig:"
-                                 "\e[42m{\e[3C\e[0m%\e[42m}\e[0m",
+                                 "\e[1E\e[7C\e[42m{\e[3C\e[0m%\e[42m}\e[0m",
                                  &dtpretrigger};
 
 dt::MultiButton dttrigger_selector{2, 0, "12", 0, comm::ansi::btn_pressed_str_green};
@@ -86,8 +93,9 @@ dt::StaticPart dtsample_buff_part{6,
                                   "\e[1E\e[3C8192",
                                   &dtsample_buff_selector};
 
-constexpr dt::StaticPart* dterminal_parts[]{&dtheader,          &dttrigger_level_part,   &dtpretrigger_part, &dttrigger_selector_part, &dttrigger_mode_part,
-                                            &dtsamplerate_part, &dtsamplerate_disp_part, &dtsample_buff_part};
+constexpr dt::StaticPart* dterminal_parts[]{&dtheader,          &dtchannel_part,          &dttrigger_level_part,
+                                            &dtpretrigger_part, &dttrigger_selector_part, &dttrigger_mode_part,
+                                            &dtsamplerate_part, &dtsamplerate_disp_part,  &dtsample_buff_part};
 
 }  // namespace s0
 

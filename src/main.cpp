@@ -279,7 +279,9 @@ int main() {
                 }
 #endif
                 else if (current_screen == s0::index) {
-                    if (rx_char == '+') {
+                    if (rx_char == 'a') {
+                    } else if (rx_char == 'b') {
+                    } else if (rx_char == '+') {
                         datac1_private.trigger_settings.increment_level();
                         s0::dttrigger_level.set_value(datac1_private.trigger_settings.get_level());
                     } else if (rx_char == '-') {
