@@ -15,7 +15,9 @@ dt::StaticPart dtheader{3,
                         "\e[1EPinout:"
                         "\e[1E CH1 - GP26"
                         "\e[1E PWM - GP16"
-                        "\e[2EVersion:\e[1E " PROJECT_VERSION "\e[1ECompiled:\e[1E " COMPILE_DATE
+                        "\e[2EVersion:\e[1E " PROJECT_VERSION
+                        "\e[1E " CMAKE_BUILD_TYPE
+                        "\e[1ECompiled:\e[1E " COMPILE_DATE
                         "\e[2ECreated by:\e[1E Vít Vaněček"
                         "\e[2E Czech\e[1E Technical\e[1E University\e[1E in Prague"
                         "\e[2E Faculty of\e[1E Electrical\e[1E Engineering"

@@ -4,7 +4,9 @@ cmake_minimum_required(VERSION 3.16)
 
 include(lib/pico-sdk/pico_sdk_init.cmake)
 
-project(elascope VERSION 0.5.1)
+project(elascope VERSION 0.6.0)
+
+
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions -fno-rtti")
@@ -12,6 +14,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 pico_sdk_init()
 
+set(VERSION_SUFFIX "-dev")
 string(TIMESTAMP COMPILE_DATE "%d.%m.%Y")
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/posc_version.h.in ${CMAKE_CURRENT_SOURCE_DIR}/src/posc_version.h)
 
