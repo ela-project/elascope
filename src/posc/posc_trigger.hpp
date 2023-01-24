@@ -19,9 +19,10 @@ class Settings {
     static constexpr uint16_t max_raw_u8{0xFF};
     static constexpr uint16_t min_raw{0x00};
     static constexpr uint16_t max_voltage_mV{3300};
-    static constexpr uint16_t max_trigger_level_mV{3000};
-    static constexpr uint16_t min_trigger_level_mV{500};
-    static constexpr uint16_t trigger_level_step_mV{500};
+    static constexpr uint16_t max_trigger_level_mV{3200};
+    static constexpr uint16_t min_trigger_level_mV{100};
+    static constexpr uint16_t level_big_step_mV{500};
+    static constexpr uint16_t level_small_step_mV{100};
 
     static constexpr uint8_t max_pretrig{80};
     static constexpr uint8_t min_pretrig{0};
@@ -50,17 +51,41 @@ class Settings {
         return _trigger_edge;
     }
 
-    void increment_level() {
-        if (_trigger_level_mV < max_trigger_level_mV) {
-            _trigger_level_mV += trigger_level_step_mV;
+    void increment_level_small() {
+        increment_level(level_small_step_mV);
+    }
+
+    void decrement_level_small() {
+        decrement_level(level_small_step_mV);
+    }
+
+    void increment_level(uint16_t increment = level_big_step_mV) {
+        uint16_t new_level{_trigger_level_mV};
+        if (increment >= max_trigger_level_mV) {
+            new_level = max_trigger_level_mV;
+        } else if (max_trigger_level_mV - increment < new_level) {
+            new_level = max_trigger_level_mV;
+        } else if (increment > 0) {
+            new_level = (new_level + increment) - (new_level % increment);
         }
+        _trigger_level_mV = etl::min(max_trigger_level_mV, new_level);
         set_raw_level();
     }
 
-    void decrement_level() {
-        if (_trigger_level_mV > min_trigger_level_mV) {
-            _trigger_level_mV -= trigger_level_step_mV;
+    void decrement_level(uint16_t decrement = level_big_step_mV) {
+        uint16_t new_level{_trigger_level_mV};
+        if (decrement >= max_trigger_level_mV) {
+            new_level = min_trigger_level_mV;
+        } else if (min_trigger_level_mV + decrement > new_level) {
+            new_level = min_trigger_level_mV;
+        } else if (decrement > 0) {
+            if (new_level % decrement == 0) {
+                new_level -= decrement;
+            } else {
+                new_level = (new_level - new_level % decrement);
+            }
         }
+        _trigger_level_mV = etl::max(min_trigger_level_mV, new_level);
         set_raw_level();
     }
 

@@ -1,6 +1,7 @@
 #pragma once
 #include <stdint.h>
 #include <cstddef>
+#include "posc_dterminal_dynamic.hpp"
 #include "posc_pwm.hpp"
 #include "posc_trigger.hpp"
 #include "posc_dataplotter_stream.hpp"
@@ -18,6 +19,9 @@ inline constexpr uint8_t index{dt::Terminal::help_screen};
 namespace s0 {
 inline constexpr uint8_t index{dt::Terminal::start_screen};
 inline constexpr trig::Settings::Edge selector_edges[]{trig::Settings::Edge::RISING, trig::Settings::Edge::FALLING};
+
+extern dt::MultiButton dtchannel_selector;
+
 extern dt::FloatNumber dttrigger_level;
 
 extern dt::IntNumber dtpretrigger;
@@ -39,7 +43,7 @@ inline constexpr size_t selector_sample_size[]{1024, 2048, 4096, 8192};
 inline constexpr size_t selector_sample_size_default{0};
 extern dt::MultiButton dtsample_buff_selector;
 
-inline constexpr dt::MultiButton *selector_array[]{&dttrigger_selector, &dtsamplerate_selector, &dttrigger_mode_selector, &dtsample_buff_selector};
+inline constexpr dt::MultiButton *selector_array[]{&dtchannel_selector, &dttrigger_selector, &dtsamplerate_selector, &dttrigger_mode_selector, &dtsample_buff_selector};
 }  // namespace s0
 
 namespace s1 {

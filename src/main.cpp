@@ -44,6 +44,7 @@ void handle_selector_values(dt::MultiButton *selector, DataForCore1 &data_for_co
         data_for_core1.number_of_samples = s0::selector_sample_size[selector->get_active_button()];
     } else if (selector == &s0::dttrigger_selector) {
         data_for_core1.trigger_settings.set_edge(s0::selector_edges[selector->get_active_button()]);
+    } else if (selector == &s0::dtchannel_selector) {
     }
 }
 }  // namespace s0
@@ -279,10 +280,14 @@ int main() {
                 }
 #endif
                 else if (current_screen == s0::index) {
-                    if (rx_char == 'a') {
-                    } else if (rx_char == 'b') {
+                    if (rx_char == ')') {
+                        datac1_private.trigger_settings.increment_level_small();
+                        s0::dttrigger_level.set_value(datac1_private.trigger_settings.get_level());
                     } else if (rx_char == '+') {
                         datac1_private.trigger_settings.increment_level();
+                        s0::dttrigger_level.set_value(datac1_private.trigger_settings.get_level());
+                    } else if (rx_char == '(') {
+                        datac1_private.trigger_settings.decrement_level_small();
                         s0::dttrigger_level.set_value(datac1_private.trigger_settings.get_level());
                     } else if (rx_char == '-') {
                         datac1_private.trigger_settings.decrement_level();

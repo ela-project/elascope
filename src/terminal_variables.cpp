@@ -32,23 +32,23 @@ dt::StaticPart dtheader{3,
                         "ELAscope\e[5C\e[42m?\e[0m"
                         "\e[1E\e[42m<\e[0m  Sampling  \e[42m>\e[0m"};
 
-dt::MultiButton dtchannel{2, 1, "ab", 0, comm::ansi::btn_pressed_str_green};
-dt::StaticPart dtchannel_part{4,
+dt::MultiButton dtchannel_selector{2, 1, "ab", 0, comm::ansi::btn_pressed_str_green};
+dt::StaticPart dtchannel_selector_part{4,
                               "Channel:"
                               "\e[1E\e[3CCH1"
                               "\e[1E\e[3CCH1+2",
-                              &dtchannel};
+                              &dtchannel_selector};
 
-dt::FloatNumber dttrigger_level{1, 1, 1, 10, 0.5f, false};
+dt::FloatNumber dttrigger_level{1, 1, 1, 9, 0.5f, false};
 dt::StaticPart dttrigger_level_part{2,
                                     "Trigger:"
-                                    "\e[1E\e[7C\e[42m-\e[3C\e[0mV\e[42m+\e[0m",
+                                    "\e[1E\e[5C\e[42m(-\e[3C\e[0mV\e[42m+)\e[0m",
                                     &dttrigger_level};
 
-dt::IntNumber dtpretrigger{1, 1, 11, 2, 0, false};
+dt::IntNumber dtpretrigger{1, 1, 10, 2, 0, false};
 dt::StaticPart dtpretrigger_part{2,
                                  "Pretrig:"
-                                 "\e[1E\e[7C\e[42m{\e[3C\e[0m%\e[42m}\e[0m",
+                                 "\e[1E\e[6C\e[42m{\e[3C\e[0m%\e[42m}\e[0m",
                                  &dtpretrigger};
 
 dt::MultiButton dttrigger_selector{2, 0, "12", 0, comm::ansi::btn_pressed_str_green};
@@ -93,7 +93,7 @@ dt::StaticPart dtsample_buff_part{6,
                                   "\e[1E\e[3C8192",
                                   &dtsample_buff_selector};
 
-constexpr dt::StaticPart* dterminal_parts[]{&dtheader,          &dtchannel_part,          &dttrigger_level_part,
+constexpr dt::StaticPart* dterminal_parts[]{&dtheader,          &dtchannel_selector_part,          &dttrigger_level_part,
                                             &dtpretrigger_part, &dttrigger_selector_part, &dttrigger_mode_part,
                                             &dtsamplerate_part, &dtsamplerate_disp_part,  &dtsample_buff_part};
 
