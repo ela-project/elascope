@@ -161,6 +161,7 @@ void core1_main() {
                 dma_channel_start(adc_chan);
                 adc_run(true);
             } else if (c0msg == STOP_ADC) {
+                ctrl_chan_adc_write = 0;
                 adc_run(false);
                 dma_channel_abort(adc_chan);
                 adc_running = false;
@@ -231,6 +232,7 @@ void core1_main() {
              * Check if DMA is finished
              */
             if ((!dma_channel_is_busy(adc_chan) && dma_channel_hw_addr(adc_chan)->write_addr == 0) || adc_done) {
+                ctrl_chan_adc_write = 0;
                 adc_run(false);
                 dma_channel_abort(adc_chan);
                 adc_running = false;
