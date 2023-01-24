@@ -6,6 +6,7 @@
 
 #include <etl/string.h>
 #include <etl/to_string.h>
+#include <etl/algorithm.h>
 
 #include "hardware/dma.h"
 #include "hardware/gpio.h"
@@ -49,6 +50,7 @@ void handle_selector_values(dt::MultiButton *selector, DataForCore1 &data_for_co
     } else if (selector == &s0::dttrigger_selector) {
         data_for_core1.trigger_settings.set_edge(s0::selector_edges[selector->get_active_button()]);
     } else if (selector == &s0::dtchannel_selector) {
+        data_for_core1.number_of_channels = selector->get_active_button() + 1;
     }
 }
 }  // namespace s0
@@ -207,6 +209,7 @@ int main() {
                     datac1_glob.lock_blocking();
                     float time_step = 1.0f / adc::samplerate_form_div(datac1_glob.adc_div);
                     uint8_t useful_bits = static_cast<uint8_t>(adc::sampling_size_t::U12);
+                    static uint number_of_channels_before = 1;
 
                     etl::string<12> channels{"1"};
                     if (datac1_glob.number_of_channels > 1) {
@@ -217,6 +220,20 @@ int main() {
                     }
 
                     channels.push_back(',');
+
+                    if (number_of_channels_before > datac1_glob.number_of_channels && number_of_channels_before > 1) {
+                        etl::string<12> clear_channels{};
+                        etl::to_string(number_of_channels_before, clear_channels, true);
+                        uint last_channel = etl::min(datac1_glob.number_of_channels, 1U);  // Handle number_of_channels = 0
+                        for (uint i{number_of_channels_before - 1}; i > last_channel; --i) {
+                            channels.push_back('+');
+                            etl::to_string(i, clear_channels, true);
+                        }
+                        clear_channels.push_back(',');
+                        dataplotter.clear_channel_data(clear_channels);
+                    }
+
+                    number_of_channels_before = datac1_glob.number_of_channels;
 
                     if (datac0_glob.array2_samples > 0) {
                         dataplotter.send_channel_data_two(channels, time_step, datac0_glob.array1_samples, datac0_glob.array2_samples, useful_bits, 0.0f, 3.3f,

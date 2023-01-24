@@ -1,5 +1,6 @@
 #pragma once
 #include <etl/string.h>
+#include <etl/string_view.h>
 #include <etl/type_traits.h>
 #include "posc_comms.hpp"
 
@@ -82,6 +83,14 @@ class DataPlotterStream {
     template <size_t SIZE>
     void send_echo(const char (&data)[SIZE]) const {
         send_char_cmd(_cmd_echo, data, SIZE - 1);
+    }
+
+    void clear_channel_data(const etl::istring& channel) const {
+        constexpr char start[]{_cmd[0], _cmd[1], _cmd_channel};
+        _usb_stream.send(start, 3);
+        _usb_stream.send(channel.c_str(), channel.size());
+        static constexpr etl::string_view temp{"0,0;U1;"};
+        _usb_stream.send(temp.begin(), temp.size());
     }
 
     template <typename T>
