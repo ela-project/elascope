@@ -3,6 +3,10 @@
 #include <cassert>
 #include <cstddef>
 #include <cstdio>
+
+#include <etl/string.h>
+#include <etl/to_string.h>
+
 #include "hardware/dma.h"
 #include "hardware/gpio.h"
 #include "hardware/structs/dma.h"
@@ -204,11 +208,21 @@ int main() {
                     float time_step = 1.0f / adc::samplerate_form_div(datac1_glob.adc_div);
                     uint8_t useful_bits = static_cast<uint8_t>(adc::sampling_size_t::U12);
 
+                    etl::string<12> channels{"1"};
+                    if (datac1_glob.number_of_channels > 1) {
+                        for (uint i{2}; i <= datac1_glob.number_of_channels; ++i) {
+                            channels.push_back('+');
+                            etl::to_string(i, channels, true);
+                        }
+                    }
+
+                    channels.push_back(',');
+
                     if (datac0_glob.array2_samples > 0) {
-                        dataplotter.send_channel_data_two("1,", time_step, datac0_glob.array1_samples, datac0_glob.array2_samples, useful_bits, 0.0f, 3.3f,
+                        dataplotter.send_channel_data_two(channels, time_step, datac0_glob.array1_samples, datac0_glob.array2_samples, useful_bits, 0.0f, 3.3f,
                                                           datac0_glob.trigger_index, datac0_glob.array1_start, adc_buffer_u16);
                     } else {
-                        dataplotter.send_channel_data("1,", time_step, datac0_glob.array1_samples, useful_bits, 0.0f, 3.3f, datac0_glob.trigger_index,
+                        dataplotter.send_channel_data(channels, time_step, datac0_glob.array1_samples, useful_bits, 0.0f, 3.3f, datac0_glob.trigger_index,
                                                       datac0_glob.array1_start);
                     }
 
