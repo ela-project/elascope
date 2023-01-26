@@ -180,7 +180,7 @@ dt::StaticPart dtheader{3,
 dt::DTButton div_fract_toggle{2, 0, 'a', false};
 dt::StaticPart div_fract_toggle_part{1, "\e[3CFrac div", &div_fract_toggle};
 
-dt::DTButton div_ps_toggle{2, 0, 'b', true};
+dt::DTButton div_ps_toggle{2, 0, 'b', false};
 dt::StaticPart div_pwr_toggle_part{1, "\e[3CPower save", &div_ps_toggle};
 
 constexpr dt::StaticPart* dterminal_parts[]{&dtheader, &div_fract_toggle_part, &div_pwr_toggle_part};
