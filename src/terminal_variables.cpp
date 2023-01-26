@@ -34,10 +34,10 @@ dt::StaticPart dtheader{3,
 
 dt::MultiButton dtchannel_selector{2, 1, "ab", 0, comm::ansi::btn_pressed_str_green};
 dt::StaticPart dtchannel_selector_part{4,
-                              "Channel:"
-                              "\e[1E\e[3CCH1"
-                              "\e[1E\e[3CCH1+2",
-                              &dtchannel_selector};
+                                       "Channel:"
+                                       "\e[1E\e[3CCH1"
+                                       "\e[1E\e[3CCH1+2",
+                                       &dtchannel_selector};
 
 dt::FloatNumber dttrigger_level{1, 1, 1, 9, 0.5f, false};
 dt::StaticPart dttrigger_level_part{2,
@@ -69,16 +69,7 @@ dt::StaticPart dttrigger_mode_part{6,
 
 dt::MultiButton dtsamplerate_selector{2, 1, "BCDEFGHIJ", selector_samplerates_default, comm::ansi::btn_pressed_str_green};
 dt::StaticPart dtsamplerate_part{10,
-                                 "Samplerate:"
-                                 "\e[1E\e[3C  1 kHz"
-                                 "\e[1E\e[3C  2 kHz"
-                                 "\e[1E\e[3C  5 kHz"
-                                 "\e[1E\e[3C 10 kHz"
-                                 "\e[1E\e[3C 20 kHz"
-                                 "\e[1E\e[3C 50 kHz"
-                                 "\e[1E\e[3C100 kHz"
-                                 "\e[1E\e[3C200 kHz"
-                                 "\e[1E\e[3C500 kHz",
+                                 one_channel_samplerate,
                                  &dtsamplerate_selector};
 
 dt::FloatNumber dtsamplerate_disp{1, 1, 4, 14 - 4, adc::get_samplerate()};
@@ -86,14 +77,10 @@ dt::StaticPart dtsamplerate_disp_part{3, "Freq (Hz):", &dtsamplerate_disp};
 
 dt::MultiButton dtsample_buff_selector{2, 1, "KLMN", selector_sample_size_default, comm::ansi::btn_pressed_str_green};
 dt::StaticPart dtsample_buff_part{6,
-                                  "Samples:"
-                                  "\e[1E\e[3C1024"
-                                  "\e[1E\e[3C2048"
-                                  "\e[1E\e[3C4096"
-                                  "\e[1E\e[3C8192",
+                                  one_channel_sample_buff,
                                   &dtsample_buff_selector};
 
-constexpr dt::StaticPart* dterminal_parts[]{&dtheader,          &dtchannel_selector_part,          &dttrigger_level_part,
+constexpr dt::StaticPart* dterminal_parts[]{&dtheader,          &dtchannel_selector_part, &dttrigger_level_part,
                                             &dtpretrigger_part, &dttrigger_selector_part, &dttrigger_mode_part,
                                             &dtsamplerate_part, &dtsamplerate_disp_part,  &dtsample_buff_part};
 
