@@ -40,7 +40,9 @@ void handle_selector_values(dt::MultiButton *selector, DataForCore1 &data_for_co
         uint32_t adc_div_32 = adc::div_from_samplerate(s0::selector_samplerates[selector->get_active_button()]);
         s1::dtadcdiv0.set_value(adc::get_div_int_u32(adc_div_32));
         s1::dtadcdiv1.set_value(adc::get_div_frac_u32(adc_div_32));
-        s0::dtsamplerate_disp.set_value(adc::samplerate_form_div(adc_div_32));
+
+        const size_t num_of_channels = s0::dtchannel_selector.get_active_button() + 1;
+        s0::dtsamplerate_disp.set_value(adc::samplerate_form_div(adc_div_32) / num_of_channels);
         s1::precise_adc_freq.set_value(adc::samplerate_form_div(adc_div_32));
         s1::dtfreq_prec0.set_value(static_cast<int32_t>(adc::samplerate_form_div(adc_div_32)));
         s1::dtfreq_prec1.set_value(0);
@@ -49,8 +51,6 @@ void handle_selector_values(dt::MultiButton *selector, DataForCore1 &data_for_co
         data_for_core1.number_of_samples = s0::selector_sample_size[selector->get_active_button()];
     } else if (selector == &s0::dttrigger_selector) {
         data_for_core1.trigger_settings.set_edge(s0::selector_edges[selector->get_active_button()]);
-    } else if (selector == &s0::dtchannel_selector) {
-        data_for_core1.number_of_channels = selector->get_active_button() + 1;
     }
 }
 }  // namespace s0
@@ -123,6 +123,7 @@ int main() {
     dt::MultiButton *pressed_selector;
     pwm::Manager pwm_manager;
     trig::mode_t trigger_mode;
+    bool force_render_static_parts{false};
 
     init_dterminal();
     datac0_glob.init_mutex();
@@ -160,7 +161,7 @@ int main() {
     s2::precise_pwm_freq.set_value(pwm_manager.get_freq());
     s2::update_all_displays(pwm_manager);
 
-    datac1_private.number_of_channels = 1;
+    datac1_private.number_of_channels = s0::dtchannel_selector.get_active_button() + 1;
 
     datac1_glob.lock_blocking();
     datac1_glob = datac1_private;
@@ -215,8 +216,6 @@ int main() {
 
                     etl::to_string(datac0_glob.first_channel, channels, false);
 
-                    dataplotter.send_info(channels.c_str(), channels.size());
-
                     etl::to_string(datac0_glob.first_channel + 1, channels, false);
                     if (datac1_glob.number_of_channels > 1) {
                         for (uint i{1}; i < datac1_glob.number_of_channels; ++i) {
@@ -226,8 +225,6 @@ int main() {
                     }
 
                     channels.push_back(',');
-
-                    dataplotter.send_info(channels.c_str(), channels.size());
 
                     if (number_of_channels_before > datac1_glob.number_of_channels && number_of_channels_before > 1) {
                         etl::string<12> clear_channels{};
@@ -376,6 +373,19 @@ int main() {
                                 send_msg_to_core1(STOP_ADC);
                                 adc_state = ADCState_t::PAUSED;
                             }
+                        } else if (pressed_selector == &s0::dtchannel_selector) {
+                            const auto previous = datac1_private.number_of_channels - 1;
+                            const auto new_num_of_channels = pressed_selector->get_active_button();
+                            datac1_private.number_of_channels = new_num_of_channels + 1;
+                            if (previous != new_num_of_channels && new_num_of_channels < s0::max_num_of_channels) {
+                                s0::dtsample_buff_part.set_static_part(s0::channel_sample_buff_strs[new_num_of_channels]);
+                                s0::dtsamplerate_part.set_static_part(s0::channel_samplerate_strs[new_num_of_channels]);
+                                force_render_static_parts = true;
+
+                                uint32_t adc_div_32 = adc::div_from_samplerate(s1::precise_adc_freq.get_freq());
+                                const size_t num_of_channels = new_num_of_channels + 1;
+                                s0::dtsamplerate_disp.set_value(adc::samplerate_form_div(adc_div_32) / num_of_channels);
+                            }
                         }
                         s0::handle_selector_values(pressed_selector, datac1_private);
                     }
@@ -387,7 +397,8 @@ int main() {
                         }
                         s1::dtadcdiv0.set_value(adc::get_div_int_u32(adc_div_32));
                         s1::dtadcdiv1.set_value(adc::get_div_frac_u32(adc_div_32));
-                        s0::dtsamplerate_disp.set_value(adc::samplerate_form_div(adc_div_32));
+                        const size_t num_of_channels = s0::dtchannel_selector.get_active_button() + 1;
+                        s0::dtsamplerate_disp.set_value(adc::samplerate_form_div(adc_div_32) / num_of_channels);
                         s0::dtsamplerate_selector.deactivate_all_buttons();
                         datac1_private.adc_div = adc_div_32;
                     } else if (rx_char == 'M' || rx_char == 'm') {
@@ -441,6 +452,10 @@ int main() {
                 }
             }
 
+            if (force_render_static_parts) {
+                dterminal.print_static_elements(false);
+                force_render_static_parts = false;
+            }
             dterminal.print_dynamic_elements(force_dynamic_parts);
         } else {
             if (usb_was_connected) {
