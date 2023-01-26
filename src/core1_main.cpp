@@ -251,7 +251,7 @@ void core1_main() {
                 debug_data.adc_running = false;
 #endif
                 const uint32_t sum_samples = pretrig_samples + posttrig_samples;
-                datac0_private.first_channel = 0;
+                datac0_private.first_channel = (uint32_t(0) - pretrig_samples) % trigger_channel_index_div;
                 if (trigger_detected && array_index >= pretrig_samples) {
                     if (second_cycle_tx_count) {
                         const uint32_t start_index = array_index - pretrig_samples;
