@@ -14,7 +14,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 pico_sdk_init()
 
-set(VERSION_SUFFIX "-dev")
+set(VERSION_SUFFIX "")
 string(TIMESTAMP COMPILE_DATE "%d.%m.%Y")
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/posc_version.h.in ${CMAKE_CURRENT_SOURCE_DIR}/src/posc_version.h @ONLY)
 
