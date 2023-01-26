@@ -1,0 +1,2769 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="47.75mm"
+   height="55.794998mm"
+   viewBox="0 0 47.749999 55.794998"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="elascope-pinout-inkscape.svg"
+   inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_la.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.2921791"
+     inkscape:cx="60.446285"
+     inkscape:cy="111.47632"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer9"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     inkscape:snap-global="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23780">
+      <path
+         d="M 115,187.1023 H 539.28 V 465.834 H 115 Z"
+         id="path23778" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath30368">
+      <path
+         d="M 0,0 H 595.28 V 841.89 H 0 Z"
+         id="path30366" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath30388">
+      <path
+         d="M 0,0 H 595.28 V 841.89 H 0 Z"
+         id="path30386" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Background"
+     style="display:inline"
+     transform="translate(-9.7494714,-11.499999)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       id="rect28191"
+       width="47.75"
+       height="55.794998"
+       x="9.7494717"
+       y="11.499999"
+       rx="0.19598137"
+       ry="0.19598137" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Base"
+     transform="translate(2.8212706,3.0904971)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="g2938"
+       transform="rotate(90,11.089337,-4.8321853)"
+       style="display:inline"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
+      <rect
+         style="display:inline;fill:#006e46;fill-opacity:1;stroke:none;stroke-width:0.999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+         id="rect913-3"
+         width="51"
+         height="21"
+         x="17.626041"
+         y="-20.421875"
+         ry="0.48164755"
+         rx="0.48164755"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <g
+         id="g17496-6"
+         transform="translate(15.830366,-20.399429)"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"
+         style="display:inline">
+        <circle
+           style="fill:#968c5a;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path874-7"
+           cx="3.8456745"
+           cy="4.8275537"
+           r="1.75" />
+        <circle
+           style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path16998-5"
+           cx="3.8456745"
+           cy="4.8275537"
+           r="1" />
+      </g>
+      <g
+         id="g17754-3"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"
+         style="display:inline"
+         transform="translate(15.777041,-20.421875)">
+        <circle
+           style="opacity:1;fill:#968c5a;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path874-6-5"
+           cx="3.8989999"
+           cy="16.15"
+           r="1.75" />
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path16998-7-6"
+           cx="3.8989999"
+           cy="16.15"
+           r="1" />
+      </g>
+      <g
+         id="g17496-3-6-2"
+         transform="translate(62.730366,-9.099429)"
+         style="display:inline"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500">
+        <circle
+           style="fill:#968c5a;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path874-6-2-9"
+           cx="3.8456745"
+           cy="4.8275537"
+           r="1.75" />
+        <circle
+           style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path16998-7-9-1"
+           cx="3.8456745"
+           cy="4.8275537"
+           r="1" />
+      </g>
+      <g
+         id="g17496-3-1-2"
+         transform="translate(62.730366,-20.399429)"
+         style="display:inline"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500">
+        <circle
+           style="fill:#968c5a;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path874-6-27-7"
+           cx="3.8456745"
+           cy="4.8275537"
+           r="1.75" />
+        <circle
+           style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path16998-7-0-0"
+           cx="3.8456745"
+           cy="4.8275537"
+           r="1" />
+      </g>
+      <g
+         id="g8788-9"
+         transform="translate(10.02487,-14.229434)"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"
+         style="display:inline">
+        <g
+           id="g7067-54-3"
+           transform="translate(11.531964,-3.5311048)">
+          <path
+             id="rect4819-6-7-60"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 6.2890625,-10.058594 v 5.2519534 c -6.507e-4,0.012919 0,0.025976 0,0.039063 v 1.1347656 1.8886719 c 0,0.4187716 0.3370877,0.75585935 0.7558594,0.75585935 h 4.5351561 c 0.418772,0 0.75586,-0.33708775 0.75586,-0.75585935 V -3.632812 -4.7675776 c 0,-0.013087 6.5e-4,-0.026143 0,-0.039063 v -5.2519534 z"
+             transform="scale(0.26458333)" />
+          <path
+             id="rect4817-2-1-7-4-6"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 1.9637044,-2.661288 A 0.5,0.5 0 0 0 2.4639323,-2.1615769 0.5,0.5 0 0 0 2.9641601,-2.661288 Z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-2"
+             cx="2.4639325"
+             cy="-1.0617586"
+             r="0.5" />
+        </g>
+        <g
+           id="g7067-54-2-6"
+           transform="translate(24.268816,-3.5311048)">
+          <path
+             id="rect4819-6-7-6-1"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 6.2890625,-10.058594 v 5.2519534 c -6.507e-4,0.012919 0,0.025976 0,0.039063 v 1.1347656 1.8886719 c 0,0.4187716 0.3370877,0.75585935 0.7558594,0.75585935 h 4.5351561 c 0.418772,0 0.75586,-0.33708775 0.75586,-0.75585935 V -3.632812 -4.7675776 c 0,-0.013087 6.5e-4,-0.026143 0,-0.039063 v -5.2519534 z"
+             transform="scale(0.26458333)" />
+          <path
+             id="rect4817-2-1-7-4-1-8"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 1.9637044,-2.661288 A 0.5,0.5 0 0 0 2.4639323,-2.1615769 0.5,0.5 0 0 0 2.9641601,-2.661288 Z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-0-79"
+             cx="2.4639325"
+             cy="-1.0617586"
+             r="0.5" />
+        </g>
+        <g
+           id="g7067-54-2-5-2"
+           transform="translate(37.005661,-3.5311048)">
+          <path
+             id="rect4819-6-7-6-9-0"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 6.2890625,-10.058594 v 5.2519534 c -6.507e-4,0.012919 0,0.025976 0,0.039063 v 1.1347656 1.8886719 c 0,0.4187716 0.3370877,0.75585935 0.7558594,0.75585935 h 4.5351561 c 0.418772,0 0.75586,-0.33708775 0.75586,-0.75585935 V -3.632812 -4.7675776 c 0,-0.013087 6.5e-4,-0.026143 0,-0.039063 v -5.2519534 z"
+             transform="scale(0.26458333)" />
+          <path
+             id="rect4817-2-1-7-4-1-7-2"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 1.9637044,-2.661288 A 0.5,0.5 0 0 0 2.4639323,-2.1615769 0.5,0.5 0 0 0 2.9641601,-2.661288 Z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-0-7-3"
+             cx="2.4639325"
+             cy="-1.0617586"
+             r="0.5" />
+        </g>
+        <g
+           id="g7067-54-2-5-8-75"
+           transform="translate(49.742515,-3.5311048)">
+          <path
+             id="rect4819-6-7-6-9-5-9"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 6.2890625,-10.058594 v 5.2519534 c -6.507e-4,0.012919 0,0.025976 0,0.039063 v 1.1347656 1.8886719 c 0,0.4187716 0.3370877,0.75585935 0.7558594,0.75585935 h 4.5351561 c 0.418772,0 0.75586,-0.33708775 0.75586,-0.75585935 V -3.632812 -4.7675776 c 0,-0.013087 6.5e-4,-0.026143 0,-0.039063 v -5.2519534 z"
+             transform="scale(0.26458333)" />
+          <path
+             id="rect4817-2-1-7-4-1-7-0-2"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 1.9637044,-2.661288 A 0.5,0.5 0 0 0 2.4639323,-2.1615769 0.5,0.5 0 0 0 2.9641601,-2.661288 Z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-0-7-9-2"
+             cx="2.4639325"
+             cy="-1.0617586"
+             r="0.5" />
+        </g>
+        <g
+           id="g7062-3-8"
+           transform="translate(8.2810055,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-97"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-3"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-6"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-12"
+           transform="translate(10.828376,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-9"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-3"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-1"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-3-9"
+           transform="translate(15.923117,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-1-4"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-4-7"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-9-8"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-2-4"
+           transform="translate(18.470487,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-0-50"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-6-36"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-8-1"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-0"
+           transform="translate(28.659966,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-6"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-3"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-2"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-6-0"
+           transform="translate(31.207337,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-1-6"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-5-1"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-9-5"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-4-5"
+           transform="translate(33.754704,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-9-4"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-0-7"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-91-6"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-7-5"
+           transform="translate(36.302077,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-7-6"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-1-93"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-1-74"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-67-5"
+           transform="translate(41.396817,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-3-2"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-6-5"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-5-4"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-6-6-7"
+           transform="translate(43.944188,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-1-3-4"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-5-9-4"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-9-4-3"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-4-8-0"
+           transform="translate(46.491557,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-9-1-7"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-0-2-86"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-91-9-8"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-7-3-8"
+           transform="translate(49.038926,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-7-9-4"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-1-0-3"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-1-8-14"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-4-8-6-9"
+           transform="translate(54.133667,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-9-1-3-20"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-0-2-8-6"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-91-9-5-89"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-7-3-6-2"
+           transform="translate(56.681036,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-2-7-9-1-6"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-1-0-1-6"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-1-8-5-49"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-95-5"
+           transform="translate(21.017855,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-04-0"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-8-4"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-7-87"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-1-1"
+           transform="translate(23.565226,-3.6628797)">
+          <path
+             id="rect4817-2-7-6-0-8-7-7"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-2-2"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-72-7"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+      </g>
+      <g
+         id="g29993-2"
+         transform="rotate(90,68.865472,-4.6668953)"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"
+         style="display:inline">
+        <g
+           id="g7067-54-2-5-8-7-2"
+           transform="translate(61.14656,-1.7661284)">
+          <path
+             id="rect4819-6-7-6-9-5-2-6"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 6.2890625,-10.058594 v 5.2519534 c -6.507e-4,0.012919 0,0.025976 0,0.039063 v 1.1347656 1.8886719 c 0,0.4187716 0.3370877,0.75585935 0.7558594,0.75585935 h 4.5351561 c 0.418772,0 0.75586,-0.33708775 0.75586,-0.75585935 V -3.632812 -4.7675776 c 0,-0.013087 6.5e-4,-0.026143 0,-0.039063 v -5.2519534 z"
+             transform="scale(0.26458333)" />
+          <path
+             id="rect4817-2-1-7-4-1-7-0-4-1"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 1.9637044,-2.661288 A 0.5,0.5 0 0 0 2.4639323,-2.1615769 0.5,0.5 0 0 0 2.9641601,-2.661288 Z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-0-7-9-0-0"
+             cx="2.4639325"
+             cy="-1.0617586"
+             r="0.5" />
+        </g>
+        <g
+           id="g7062-3-6-9-7-3-9-6"
+           transform="translate(60.442971,-1.8979033)">
+          <path
+             id="rect4817-2-7-6-0-8-2-7-9-14-1"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-1-0-9-5"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-1-8-1-9"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+        <g
+           id="g7062-3-6-9-4-8-6-0-4"
+           transform="translate(65.537712,-1.8979033)">
+          <path
+             id="rect4817-2-7-6-0-8-2-9-1-3-7-9"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:3.77953;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m -0.6796875,-9.5605469 v 6.0488281 a 3.0236221,3.0236221 0 0 0 3.0234375,3.02343755 3.0236221,3.0236221 0 0 0 3.0234375,-3.02343755 3.0236221,3.0236221 0 0 0 0,-0.078125 v -5.9707031 z"
+             transform="scale(0.26458333)" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-0-2-8-5-0"
+             cx="0.62011719"
+             cy="-0.92923176"
+             r="0.5" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-91-9-5-8-9"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="M 0.11988931,-2.529319 A 0.5,0.5 0 0 0 0.62011721,-2.0296079 0.5,0.5 0 0 0 1.120345,-2.529319 Z" />
+        </g>
+      </g>
+      <g
+         id="g9978-1"
+         transform="translate(9.6743768,2.390363)"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"
+         style="display:inline">
+        <g
+           id="g9915-7">
+          <path
+             id="rect4819-6-7-4-7"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 13.546438,-1.812238 v -1.3895793 c -1.72e-4,-0.00342 0,-0.00687 0,-0.010335 v -0.3002401 -0.4997111 c 0,-0.1108 0.08919,-0.1999878 0.199988,-0.1999878 h 1.199927 c 0.1108,0 0.199988,0.089188 0.199988,0.1999878 v 0.4997111 0.3002401 c 0,0.00346 1.72e-4,0.00692 0,0.010335 v 1.3895793 z" />
+          <path
+             id="rect4817-2-1-7-4-8-1"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 13.846161,-1.8122863 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-1-1"
+             cx="14.34639"
+             cy="3.4118156"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4819-6-7-6-3-5"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 26.28329,-1.812238 v -1.3895793 c -1.72e-4,-0.00342 0,-0.00687 0,-0.010335 v -0.3002401 -0.4997111 c 0,-0.1108 0.08919,-0.1999878 0.199988,-0.1999878 h 1.199927 c 0.1108,0 0.199988,0.089188 0.199988,0.1999878 v 0.4997111 0.3002401 c 0,0.00346 1.72e-4,0.00692 0,0.010335 v 1.3895793 z" />
+          <path
+             id="rect4817-2-1-7-4-1-0-9"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 26.583013,-1.8122863 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-0-4-7"
+             cx="27.083242"
+             cy="3.4118156"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4819-6-7-6-9-4-7"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 39.020135,-1.812238 v -1.3895793 c -1.72e-4,-0.00342 0,-0.00687 0,-0.010335 v -0.3002401 -0.4997111 c 0,-0.1108 0.08919,-0.1999878 0.199988,-0.1999878 h 1.199927 c 0.1108,0 0.199988,0.089188 0.199988,0.1999878 v 0.4997111 0.3002401 c 0,0.00346 1.72e-4,0.00692 0,0.010335 v 1.3895793 z" />
+          <path
+             id="rect4817-2-1-7-4-1-7-4-6"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 39.319858,-1.8122863 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-0-7-7-7"
+             cx="39.820087"
+             cy="3.4118156"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4819-6-7-6-9-5-3-3"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 51.756989,-1.812238 v -1.3895793 c -1.72e-4,-0.00342 0,-0.00687 0,-0.010335 v -0.3002401 -0.4997111 c 0,-0.1108 0.08919,-0.1999878 0.199988,-0.1999878 h 1.199927 c 0.1108,0 0.199988,0.089188 0.199988,0.1999878 v 0.4997111 0.3002401 c 0,0.00346 1.72e-4,0.00692 0,0.010335 v 1.3895793 z" />
+          <path
+             id="rect4817-2-1-7-4-1-7-0-1-6"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 52.056712,-1.8122863 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-7-2-7-0-4-0-7-9-7-5"
+             cx="52.556942"
+             cy="3.4118156"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-7-6-0-9-6"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 8.4516646,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.7999512,-0.7999512 0.8,0.8 0 0 1 0.7999512,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-6-3"
+             cx="9.2516155"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-2-9"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 8.7513879,-1.8124804 a 0.5,0.5 0 0 1 0.5002279,-0.4997111 0.5,0.5 0 0 1 0.5002278,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-8-4"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 10.999035,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-5-8"
+             cx="11.798986"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-74-1"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 11.298758,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-1-8-2"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 16.093776,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-4-5-9"
+             cx="16.893726"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-9-9-3"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 16.393499,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-0-5-9"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 18.641146,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-6-3-0"
+             cx="19.441097"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-8-8-8"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 18.940869,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-31-8"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 28.830625,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-8-5"
+             cx="29.630577"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-96-0"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 29.130348,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-1-33-9"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 31.377996,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-5-3-6"
+             cx="32.177948"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-9-8-3"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 31.677719,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-9-0-8"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 33.925363,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-0-4-5"
+             cx="34.725315"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-91-8-6"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 34.225086,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-7-8-1"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 36.472736,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-1-9-1"
+             cx="37.272686"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-1-7-5"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 36.772459,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-3-6-9"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 41.567476,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-6-4-8"
+             cx="42.367428"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-5-3-4"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 41.867199,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-1-3-3-8"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 44.114847,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-5-9-0-1"
+             cx="44.914799"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-9-4-9-0"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 44.41457,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-9-1-5-3"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 46.662216,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-0-2-4-0"
+             cx="47.462166"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-91-9-0-4"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 46.961939,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-7-9-9-4"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 49.209585,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-1-0-4-4"
+             cx="50.009537"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-1-8-6-4"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 49.509308,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-9-1-3-2-7"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 54.304326,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-0-2-8-2-6"
+             cx="55.104279"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-91-9-5-4-3"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 54.604049,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-2-7-9-1-7-1"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 56.851695,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-66-1-0-1-5-7"
+             cx="57.651646"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-4-1-8-5-4-5"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 57.151418,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-04-1-9"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 21.188514,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-8-2-6"
+             cx="21.988464"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-7-8-2"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 21.488237,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+          <path
+             id="rect4817-2-7-6-0-8-7-3-1"
+             style="fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 23.735885,-1.8122381 v -1.600419 a 0.8,0.8 0 0 1 0.799951,-0.7999512 0.8,0.8 0 0 1 0.799951,0.7999512 0.8,0.8 0 0 1 0,0.020671 v 1.5797485 z" />
+          <circle
+             style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+             id="path14901-5-4-7-8-2-6-7"
+             cx="24.535835"
+             cy="3.4125676"
+             r="0.5"
+             transform="scale(1,-1)" />
+          <path
+             id="rect4817-2-1-7-6-8-4-72-8-8"
+             style="fill:#fffffd;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+             d="m 24.035608,-1.8124804 a 0.5,0.5 0 0 1 0.500228,-0.4997111 0.5,0.5 0 0 1 0.500228,0.4997111 z" />
+        </g>
+      </g>
+      <rect
+         style="display:inline;fill:#aba8af;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect10002-5"
+         width="5.6999998"
+         height="7.6000004"
+         x="15.776041"
+         y="-13.721875"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#5c5c67;fill-opacity:1;stroke-width:0.999995;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect11007-7"
+         width="1.4"
+         height="0.85000002"
+         x="17.276449"
+         y="-12.721422"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#5c5c67;fill-opacity:1;stroke-width:0.999995;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect11007-2-4"
+         width="1.4"
+         height="0.85000002"
+         x="17.276449"
+         y="-7.9723721"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#242623;fill-opacity:1;stroke-width:0.999997;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect26653-1"
+         width="7"
+         height="7"
+         x="40.026043"
+         y="-13.421875"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#242623;fill-opacity:1;stroke-width:0.999995;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect30226-8"
+         width="2.4200714"
+         height="2.4200001"
+         x="27.306387"
+         y="-14.021378"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#53545a;fill-opacity:1;stroke-width:0.99999;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect30226-52-5"
+         width="2.6099999"
+         height="2.1402421"
+         x="27.216042"
+         y="-16.981874"
+         ry="0.2"
+         rx="0.2"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <g
+         id="g52820-9"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"
+         style="display:inline"
+         transform="translate(15.777041,-20.421875)">
+        <rect
+           style="display:inline;fill:#c8aa64;fill-opacity:1;stroke-width:0.999997;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="rect30226-52-9-0-7"
+           width="2.3"
+           height="2.9797933"
+           x="35.249001"
+           y="11.36"
+           ry="0.2"
+           rx="0.2" />
+        <rect
+           style="display:inline;fill:#9c968c;fill-opacity:1;stroke-width:0.999991;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="rect30226-52-9-5"
+           width="2"
+           height="2.6800001"
+           x="35.399002"
+           y="11.509896"
+           ry="0.2"
+           rx="0.20000002" />
+      </g>
+      <rect
+         style="display:inline;fill:#242623;fill-opacity:1;stroke-width:0.999992;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect30226-5-3"
+         width="2.4200714"
+         height="1.5"
+         x="22.976042"
+         y="-16.621876"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#242623;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect30226-2-8"
+         width="2.98"
+         height="1.95"
+         x="35.22604"
+         y="-7.0618753"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#242623;fill-opacity:1;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect30226-2-2-8"
+         width="0.60000002"
+         height="1.5"
+         x="35.626041"
+         y="-17.091875"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#aba8af;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect30594-3"
+         width="0.90000004"
+         height="0.34999999"
+         x="34.726044"
+         y="-16.516874"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#aba8af;fill-opacity:1;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect30596-1"
+         width="0.89999998"
+         height="0.34999999"
+         x="36.226044"
+         y="-16.041874"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#aba8af;fill-opacity:1;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect30596-0-8"
+         width="0.89999998"
+         height="0.34999999"
+         x="36.226044"
+         y="-16.991875"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#808080;fill-opacity:1;stroke-width:0.999997;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect44282-9"
+         width="0.30000001"
+         height="1.5000002"
+         x="25.096111"
+         y="-16.621876"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <g
+         id="g56566-6"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"
+         style="display:inline"
+         transform="translate(15.777041,-20.421875)">
+        <rect
+           style="display:inline;fill:#aba8af;fill-opacity:1;stroke-width:0.999991;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="rect30226-52-2-4"
+           width="4.2000003"
+           height="3.4000001"
+           x="11.649"
+           y="12.3"
+           ry="0.2"
+           rx="0.20000002" />
+        <ellipse
+           style="opacity:1;fill:#e5e5e5;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path52844-3"
+           cx="13.749001"
+           cy="14"
+           rx="1.575"
+           ry="1.24" />
+      </g>
+      <ellipse
+         style="display:inline;fill:#2d3027;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="path56590-3"
+         cx="25.261042"
+         cy="-4.1368752"
+         rx="0.93499994"
+         ry="0.935"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <circle
+         style="display:inline;fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="path58217-3"
+         cx="25.261042"
+         cy="-4.1368752"
+         r="0.49999997"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <ellipse
+         style="display:inline;fill:#2d3027;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="path56590-8-8"
+         cx="62.611042"
+         cy="-15.836875"
+         rx="0.93499994"
+         ry="0.935"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <circle
+         style="display:inline;fill:#c8aa64;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="path58217-0-6"
+         cx="62.611042"
+         cy="-15.836875"
+         r="0.49999997"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#9b9386;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect64877-0"
+         width="0.83182198"
+         height="1.1703702"
+         x="21.976042"
+         y="-4.7718754"
+         rx="0.1"
+         ry="0.1"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#807259;fill-opacity:1;stroke-width:0.999997;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect64877-8-4"
+         width="1.25"
+         height="1.87"
+         x="25.376041"
+         y="-13.721875"
+         rx="0.1"
+         ry="0.1"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <rect
+         style="display:inline;fill:#807259;fill-opacity:1;stroke-width:0.999997;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect64877-8-3-8"
+         width="1.25"
+         height="1.87"
+         x="30.376041"
+         y="-13.721875"
+         rx="0.1"
+         ry="0.1"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1.22605px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584"
+         x="-34.764565"
+         y="3.7121758"
+         id="text71217-8"
+         transform="scale(-0.92731304,-1.0783845)"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"><tspan
+           sodipodi:role="line"
+           id="tspan71215-8"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.264584"
+           x="-34.764565"
+           y="3.7121758">BOOTSEL</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1.26839px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584"
+         x="8.5561638"
+         y="59.120983"
+         id="text71217-9-9"
+         transform="matrix(0,-0.90164528,1.1090836,0,0,0)"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"><tspan
+           sodipodi:role="line"
+           id="tspan71215-6-7"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.264584"
+           x="8.5561638"
+           y="59.120983">DEBUG</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1.04705px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584"
+         x="3.3419392"
+         y="22.771305"
+         id="text71217-4-7"
+         transform="matrix(0,-0.95413,1.0480752,0,0,0)"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"><tspan
+           sodipodi:role="line"
+           id="tspan71215-0-6"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.264584"
+           x="3.3419392"
+           y="22.771305">LED</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1.18127px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584"
+         x="9.8832464"
+         y="20.19841"
+         id="text71217-4-9-4"
+         transform="matrix(0,-0.89344563,1.1192623,0,0,0)"
+         inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector.png"
+         inkscape:export-xdpi="500"
+         inkscape:export-ydpi="500"><tspan
+           sodipodi:role="line"
+           id="tspan71215-0-1-3"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.264584"
+           x="9.8832464"
+           y="20.19841">USB</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Pin_desc"
+     transform="translate(8.5002966,2.9450161)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-64"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="-2.9450161"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <g
+       id="g5595" />
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-19.434401"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,18.934628 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.800276"
+       y="18.980421"
+       id="text3756-6-0-7-0-2-0"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.800276"
+         y="18.980421">GP28</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-2"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-24.528912"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-9"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,24.02914 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.813459"
+       y="24.074932"
+       id="text3756-6-0-7-0-2-0-9"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.813459"
+         y="24.074932">GP27</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-27"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-27.076509"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-6"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,26.576739 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.79405"
+       y="26.62253"
+       id="text3756-6-0-7-0-2-0-1"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.79405"
+         y="26.62253">GP26</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-1"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-32.171253"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-5"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,31.671479 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.818953"
+       y="31.717274"
+       id="text3756-6-0-7-0-2-0-99"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.818953"
+         y="31.717274">GP22</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-9"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-37.265533"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-1"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,36.765763 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.805403"
+       y="36.811554"
+       id="text3756-6-0-7-0-2-0-0"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.805403"
+         y="36.811554">GP21</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-8"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-39.812904"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-7"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,39.313134 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.789656"
+       y="39.358925"
+       id="text3756-6-0-7-0-2-0-04"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.789656"
+         y="39.358925">GP20</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-29"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-42.360275"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-61"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,41.860503 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.801741"
+       y="41.906296"
+       id="text3756-6-0-7-0-2-0-042"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.801741"
+         y="41.906296">GP19</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-5"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-44.907871"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-52"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,44.4081 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.800276"
+       y="44.453892"
+       id="text3756-6-0-7-0-2-0-90"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-28"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.800276"
+         y="44.453892">GP18</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-80"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-50.002842"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-4"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,49.503069 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.813459"
+       y="49.548862"
+       id="text3756-6-0-7-0-2-0-09"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-19"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.813459"
+         y="49.548862">GP17</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-1-3-25"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-52.550209"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-7-4-44"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,52.050438 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.79405"
+       y="52.09623"
+       id="text3756-6-0-7-0-2-0-993"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-7-3-60"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.79405"
+         y="52.09623">GP16</tspan></text>
+    <rect
+       style="fill:#008136;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-9-2-6-8"
+       width="7"
+       height="2"
+       x="-29.500103"
+       y="-16.887033"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-6-9-4-8"
+       style="fill:#008136;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,16.387257 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="22.879253"
+       y="16.256907"
+       id="text3756-6-0-7-5-9-4-1-9"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-3-3-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="22.879253"
+         y="16.256907">AD_REF</tspan></text>
+    <rect
+       style="fill:#f2a6a6;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-9-2-1"
+       width="7"
+       height="2"
+       x="-29.500105"
+       y="-29.623423"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-6-9-7"
+       style="fill:#f2a6a6;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,29.12365 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="24.185896"
+       y="29.159555"
+       id="text3756-6-0-7-5-9-4-4"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-3-3-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="24.185896"
+         y="29.159555">RUN</tspan></text>
+    <g
+       id="g71453-5-1"
+       transform="translate(18.980805,22.896523)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
+      <rect
+         style="fill:#f2a6a6;fill-opacity:1;stroke-width:0.999995;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect2110-2-0-6-9-2-1-4"
+         width="7"
+         height="2"
+         x="-10.5193"
+         y="11.104687"
+         ry="0.19598137"
+         rx="0.19598135"
+         transform="scale(-1)" />
+      <path
+         id="path1226-9-2-7-6-9-7-6"
+         style="fill:#f2a6a6;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+         d="m 2.0189533,-11.60446 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+         x="3.7277966"
+         y="-11.558666"
+         id="text3756-6-0-7-5-9-4-4-9"><tspan
+           sodipodi:role="line"
+           id="tspan3754-7-6-5-3-3-3-3-4"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+           x="3.7277966"
+           y="-11.558666">3.3V EN</tspan></text>
+    </g>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-9-0"
+       width="7"
+       height="2"
+       x="-29.500103"
+       y="-4.1501803"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-6-5"
+       style="fill:#ff0000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,3.650408 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 V 2.900066 H 21.432806 A 0.5,0.5 0 0 0 20.999758,2.649952 0.5,0.5 0 0 0 20.500047,3.15018 0.5,0.5 0 0 0 20.999758,3.650408 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.750103"
+       y="3.6962008"
+       id="text3756-6-0-7-5-9-6"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-3-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.750103"
+         y="3.6962008">VBUS</tspan></text>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-9-04"
+       width="7"
+       height="2"
+       x="-29.500103"
+       y="-6.6975503"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-6-6"
+       style="fill:#ff0000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,6.197778 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 V 5.447436 H 21.432806 A 0.5,0.5 0 0 0 20.999758,5.197322 0.5,0.5 0 0 0 20.500047,5.69755 0.5,0.5 0 0 0 20.999758,6.197778 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="23.847515"
+       y="6.2435708"
+       id="text3756-6-0-7-5-9-2"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-3-67"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="23.847515"
+         y="6.2435708">VSYS</tspan></text>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-9-9"
+       width="7"
+       height="2"
+       x="-29.500103"
+       y="-14.339207"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-6-8"
+       style="fill:#ff0000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 20.999758,13.839433 a 0.5,0.5 0 0 0 0.433048,-0.250114 h 1.317233 v -0.500228 h -1.317233 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="24.044537"
+       y="13.885227"
+       id="text3756-6-0-7-5-9-7"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-3-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="24.044537"
+         y="13.885227">3.3V</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-6"
+       width="7"
+       height="2"
+       x="-29.500298"
+       y="-9.2444973"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-5"
+       style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 20.999952,8.744725 A 0.5,0.5 0 0 0 21.433,8.494611 h 1.317233 V 7.994383 H 21.433 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="24.136284"
+       y="8.7905178"
+       id="text3756-6-0-7-5-6"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="24.136284"
+         y="8.7905178">GND</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-6-4"
+       width="7"
+       height="2"
+       x="-29.500298"
+       y="-21.98135"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-5-5"
+       style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 20.999952,21.481577 A 0.5,0.5 0 0 0 21.433,21.231463 h 1.317233 V 20.731235 H 21.433 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="24.136284"
+       y="21.52737"
+       id="text3756-6-0-7-5-6-2"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-9-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="24.136284"
+         y="21.52737">GND</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-6-43"
+       width="7"
+       height="2"
+       x="-29.500298"
+       y="-34.718193"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-5-0"
+       style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 20.999952,34.218422 A 0.5,0.5 0 0 0 21.433,33.968308 h 1.317233 V 33.46808 H 21.433 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="24.136284"
+       y="34.264214"
+       id="text3756-6-0-7-5-6-7"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-9-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="24.136284"
+         y="34.264214">GND</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="2.1497233"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,2.6494954 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,3.6499514 0.5,0.5 0 0 0 0.499954,3.1497234 0.5,0.5 0 0 0 2.43e-4,2.6494954 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6887026"
+       y="3.6957436"
+       id="text3756-6-0-7-0"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6887026"
+         y="3.6957436">GP0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-7.1940737"
+       y="-1.3989956"
+       id="text3756-6-0-7-0-02"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-7.1940737"
+         y="-1.3989956"
+         id="tspan158374">GP25</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-6"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="4.697093"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-1"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,5.1968654 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,6.1973214 0.5,0.5 0 0 0 0.499954,5.6970934 0.5,0.5 0 0 0 2.43e-4,5.1968654 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6729555"
+       y="6.2431135"
+       id="text3756-6-0-7-0-0"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6729555"
+         y="6.2431135">GP1</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-9"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="9.7920618"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-4"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,10.291834 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,11.29229 0.5,0.5 0 0 0 0.499954,10.792062 0.5,0.5 0 0 0 2.43e-4,10.291834 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6594057"
+       y="11.338082"
+       id="text3756-6-0-7-0-9"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6594057"
+         y="11.338082">GP2</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-7"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="12.339204"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-71"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,12.838976 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,13.839432 0.5,0.5 0 0 0 0.499954,13.339204 0.5,0.5 0 0 0 2.43e-4,12.838976 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6648989"
+       y="13.885224"
+       id="text3756-6-0-7-0-1"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6648989"
+         y="13.885224">GP3</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-67"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="14.887028"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-3"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,15.3868 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,16.387256 0.5,0.5 0 0 0 0.499954,15.887028 0.5,0.5 0 0 0 2.43e-4,15.3868 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6901674"
+       y="16.433048"
+       id="text3756-6-0-7-0-6"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-56"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6901674"
+         y="16.433048">GP4</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-4"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="17.433943"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-8"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,17.933715 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,18.934171 0.5,0.5 0 0 0 0.499954,18.433943 0.5,0.5 0 0 0 2.43e-4,17.933715 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6722231"
+       y="18.979963"
+       id="text3756-6-0-7-0-12"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6722231"
+         y="18.979963">GP5</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-8"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="22.528683"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-85"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,23.028455 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,24.028911 0.5,0.5 0 0 0 0.499954,23.528683 0.5,0.5 0 0 0 2.43e-4,23.028455 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6843081"
+       y="24.074703"
+       id="text3756-6-0-7-0-09"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-63"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6843081"
+         y="24.074703">GP6</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-11"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="25.076054"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-5"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,25.575826 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,26.576282 0.5,0.5 0 0 0 0.499954,26.076054 0.5,0.5 0 0 0 2.43e-4,25.575826 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6648989"
+       y="26.622074"
+       id="text3756-6-0-7-0-98"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6648989"
+         y="26.622074">GP7</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-0"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="27.623877"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-44"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,28.123649 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,29.124105 0.5,0.5 0 0 0 0.499954,28.623877 0.5,0.5 0 0 0 2.43e-4,28.123649 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6780825"
+       y="29.169897"
+       id="text3756-6-0-7-0-4"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-47"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6780825"
+         y="29.169897">GP8</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-17"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="30.170794"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-59"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,30.670566 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,31.671022 0.5,0.5 0 0 0 0.499954,31.170794 0.5,0.5 0 0 0 2.43e-4,30.670566 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.6766176"
+       y="31.716814"
+       id="text3756-6-0-7-0-62"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.6766176"
+         y="31.716814">GP9</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-5"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="35.265533"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-74"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 2.43e-4,35.765306 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 2.43e-4,36.765762 0.5,0.5 0 0 0 0.499954,36.265534 0.5,0.5 0 0 0 2.43e-4,35.765306 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-7.2105532"
+       y="36.811554"
+       id="text3756-6-0-7-0-18"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-59"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-7.2105532"
+         y="36.811554">GP10</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-5-0"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="37.812904"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-74-2"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 2.4284798e-4,38.312678 A 0.5,0.5 0 0 0 -0.43280515,38.562792 H -1.7500382 v 0.500228 h 1.31723305 A 0.5,0.5 0 0 0 2.4284798e-4,39.313134 0.5,0.5 0 0 0 0.49995385,38.812906 0.5,0.5 0 0 0 2.4284798e-4,38.312678 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-7.1948061"
+       y="39.358925"
+       id="text3756-6-0-7-0-18-1"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-59-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-7.1948061"
+         y="39.358925">GP11</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-5-1"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="40.360275"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-74-0"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 2.4284798e-4,40.860047 A 0.5,0.5 0 0 0 -0.43280515,41.110161 H -1.7500382 v 0.500228 h 1.31723305 A 0.5,0.5 0 0 0 2.4284798e-4,41.860503 0.5,0.5 0 0 0 0.49995385,41.360275 0.5,0.5 0 0 0 2.4284798e-4,40.860047 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-7.1812563"
+       y="41.906296"
+       id="text3756-6-0-7-0-18-8"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-59-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-7.1812563"
+         y="41.906296">GP12</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-5-4"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="42.907642"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-74-6"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 2.4284798e-4,43.407416 A 0.5,0.5 0 0 0 -0.43280515,43.65753 H -1.7500382 v 0.500228 h 1.31723305 A 0.5,0.5 0 0 0 2.4284798e-4,44.407872 0.5,0.5 0 0 0 0.49995385,43.907644 0.5,0.5 0 0 0 2.4284798e-4,43.407416 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-7.1867495"
+       y="44.453663"
+       id="text3756-6-0-7-0-18-2"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-59-58"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-7.1867495"
+         y="44.453663">GP13</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-5-7"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="48.002384"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-74-24"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 2.4284798e-4,48.502157 A 0.5,0.5 0 0 0 -0.43280515,48.752271 H -1.7500382 v 0.500228 h 1.31723305 A 0.5,0.5 0 0 0 2.4284798e-4,49.502613 0.5,0.5 0 0 0 0.49995385,49.002385 0.5,0.5 0 0 0 2.4284798e-4,48.502157 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-7.212018"
+       y="49.548405"
+       id="text3756-6-0-7-0-18-0"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-59-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-7.212018"
+         y="49.548405">GP14</tspan></text>
+    <rect
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-4-5-9"
+       width="7"
+       height="2"
+       x="-8.500104"
+       y="50.550209"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-95-74-08"
+       style="fill:#5eb234;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 2.4284798e-4,51.049982 A 0.5,0.5 0 0 0 -0.43280515,51.300096 H -1.7500382 v 0.500228 h 1.31723305 A 0.5,0.5 0 0 0 2.4284798e-4,52.050438 0.5,0.5 0 0 0 0.49995385,51.55021 0.5,0.5 0 0 0 2.4284798e-4,51.049982 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-7.1940737"
+       y="52.09623"
+       id="text3756-6-0-7-0-18-13"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-4-59-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-7.1940737"
+         y="52.09623">GP15</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-9"
+       width="7"
+       height="2"
+       x="-8.5002966"
+       y="7.2444968"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-3"
+       style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 4.9e-5,7.744269 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 4.9e-5,8.744725 0.5,0.5 0 0 0 0.49976,8.244497 0.5,0.5 0 0 0 4.9e-5,7.744269 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.8643103"
+       y="8.7905178"
+       id="text3756-6-0-7-6"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.8643103"
+         y="8.7905178">GND</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-2"
+       width="7"
+       height="2"
+       x="-8.5002966"
+       y="19.98135"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-9"
+       style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 4.9e-5,20.481121 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 4.9e-5,21.481577 0.5,0.5 0 0 0 0.49976,20.981349 0.5,0.5 0 0 0 4.9e-5,20.481121 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.8643103"
+       y="21.52737"
+       id="text3756-6-0-7-1"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.8643103"
+         y="21.52737">GND</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-61"
+       width="7"
+       height="2"
+       x="-8.5002966"
+       y="32.718193"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-8"
+       style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 4.9e-5,33.217966 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 4.9e-5,34.218422 0.5,0.5 0 0 0 0.49976,33.718194 0.5,0.5 0 0 0 4.9e-5,33.217966 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.8643103"
+       y="34.264214"
+       id="text3756-6-0-7-7"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.8643103"
+         y="34.264214">GND</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-3"
+       width="7"
+       height="2"
+       x="-8.5002966"
+       y="45.455505"
+       ry="0.19598137"
+       rx="0.19598137"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-75"
+       style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="m 4.9e-5,45.955276 a 0.5,0.5 0 0 0 -0.433048,0.250114 h -1.317233 v 0.500228 h 1.317233 A 0.5,0.5 0 0 0 4.9e-5,46.955732 0.5,0.5 0 0 0 0.49976,46.455504 0.5,0.5 0 0 0 4.9e-5,45.955276 Z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="-6.8643103"
+       y="47.001526"
+       id="text3756-6-0-7-9"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-22"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="-6.8643103"
+         y="47.001526">GND</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-0-6-6-8"
+       width="7"
+       height="2"
+       x="-29.500298"
+       y="-47.455048"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       id="path1226-9-2-7-5-4"
+       style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke"
+       d="M 20.999952,46.955276 A 0.5,0.5 0 0 0 21.433,46.705162 h 1.317233 V 46.204934 H 21.433 a 0.5,0.5 0 0 0 -0.433048,-0.250114 0.5,0.5 0 0 0 -0.499711,0.500228 0.5,0.5 0 0 0 0.499711,0.500228 z"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="24.136284"
+       y="47.001068"
+       id="text3756-6-0-7-5-6-3"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-5-3-9-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="24.136284"
+         y="47.001068">GND</tspan></text>
+    <circle
+       style="fill:#5eb234;fill-opacity:1;stroke-width:0.999997;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="path1226-9-4"
+       cx="4.5650001"
+       cy="6.6159115"
+       r="0.25"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#5eb234;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1.500104,-1.9450161 c 3.9957143,0 6.0651041,3.7950165 6.0651041,8.5609276"
+       id="path155756"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/media/vitmark/DATA/school/ownCloud/CVUT/MGR/Thesis/rpi_pico/pico_photo/dp_pico_vector_pins_osc.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Pin_osc"
+     style="display:inline"
+     transform="translate(-9.7494714,-11.499999)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#2f96a0;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-8-3-7-1-0"
+       width="9"
+       height="2"
+       x="-57.499538"
+       y="-41.521523"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#2f96a0;fill-opacity:1;stroke-width:0.999996;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2385-1-5-5-0-7-93"
+       width="1"
+       height="0.5"
+       x="-48.749874"
+       y="-40.771523"
+       transform="scale(-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="51.298122"
+       y="41.067543"
+       id="text3756-6-0-8-0-9-3-60"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-3-4-6-7-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="51.298122"
+         y="41.067543">CH1</tspan></text>
+    <rect
+       style="display:inline;fill:#2f96a0;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-8-3-7-1-0-3"
+       width="9"
+       height="2"
+       x="-57.499538"
+       y="-38.973927"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)" />
+    <rect
+       style="display:inline;fill:#2f96a0;fill-opacity:1;stroke-width:0.999996;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2385-1-5-5-0-7-93-67"
+       width="1"
+       height="0.5"
+       x="-48.749874"
+       y="-38.223927"
+       transform="scale(-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="51.298122"
+       y="38.519947"
+       id="text3756-6-0-8-0-9-3-60-5"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-3-4-6-7-6-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="51.298122"
+         y="38.519947">CH2</tspan></text>
+    <rect
+       style="display:inline;fill:#2f96a0;fill-opacity:1;stroke-width:0.999998;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2110-2-8-3-7-1-0-2"
+       width="9"
+       height="2"
+       x="-57.499538"
+       y="-66.995224"
+       ry="0.19598137"
+       rx="0.19598137"
+       transform="scale(-1)" />
+    <rect
+       style="display:inline;fill:#2f96a0;fill-opacity:1;stroke-width:0.999996;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect2385-1-5-5-0-7-93-6"
+       width="1"
+       height="0.5"
+       x="-48.749874"
+       y="-66.245224"
+       transform="scale(-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.5px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582"
+       x="50.720608"
+       y="66.541245"
+       id="text3756-6-0-8-0-9-3-60-1"><tspan
+         sodipodi:role="line"
+         id="tspan3754-7-6-3-4-6-7-6-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.264582"
+         x="50.720608"
+         y="66.541245">GEN0</tspan></text>
+  </g>
+</svg>
