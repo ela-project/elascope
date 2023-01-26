@@ -254,12 +254,12 @@ void core1_main() {
                 datac0_private.first_channel = 0;
                 if (trigger_detected && array_index >= pretrig_samples) {
                     if (second_cycle_tx_count) {
-                        const uint32_t first_cycle_samples = sum_samples - second_cycle_tx_count;
-                        datac0_private.array1_start = &adc_buffer_u16[adc_buffer_size_u16 - first_cycle_samples];
+                        const uint32_t start_index = array_index - pretrig_samples;
+                        const uint32_t first_cycle_samples = adc_buffer_size_u16 - start_index;
+                        datac0_private.array1_start = &adc_buffer_u16[array_index - pretrig_samples];
                         datac0_private.trigger_index = pretrig_samples;
                         datac0_private.array1_samples = first_cycle_samples;
-                        datac0_private.array2_samples = second_cycle_tx_count;
-
+                        datac0_private.array2_samples = sum_samples - first_cycle_samples;
                     } else {
                         datac0_private.array1_start = &adc_buffer_u16[array_index - pretrig_samples];
                         datac0_private.array1_samples = sum_samples;
