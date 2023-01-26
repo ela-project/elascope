@@ -235,11 +235,13 @@ int main() {
 
                     number_of_channels_before = datac1_glob.number_of_channels;
 
+                    const size_t trigger_div = etl::max(datac1_glob.number_of_channels, 1U);
+
                     if (datac0_glob.array2_samples > 0) {
                         dataplotter.send_channel_data_two(channels, time_step, datac0_glob.array1_samples, datac0_glob.array2_samples, useful_bits, 0.0f, 3.3f,
-                                                          datac0_glob.trigger_index, datac0_glob.array1_start, adc_buffer_u16);
+                                                          datac0_glob.trigger_index/trigger_div, datac0_glob.array1_start, adc_buffer_u16);
                     } else {
-                        dataplotter.send_channel_data(channels, time_step, datac0_glob.array1_samples, useful_bits, 0.0f, 3.3f, datac0_glob.trigger_index,
+                        dataplotter.send_channel_data(channels, time_step, datac0_glob.array1_samples, useful_bits, 0.0f, 3.3f, datac0_glob.trigger_index/trigger_div,
                                                       datac0_glob.array1_start);
                     }
 
