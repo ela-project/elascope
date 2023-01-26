@@ -131,7 +131,8 @@ class Manager {
           _dma_pwm_chan{-1},
           _dma_ctrl_chan{-1},
           func_array_addr{sine_addr},
-          ctrl_chan_read_addr{&func_array_addr} {
+          ctrl_chan_read_addr{&func_array_addr},
+          allow_frac_div{true} {
     }
 
     void init(uint pwm_pin) {
@@ -196,6 +197,9 @@ class Manager {
             const float div = max_pmw_freq / frequency;
             _div.set_div_from_float(div);
         }
+        if (!allow_frac_div) {
+            _div.frac_div = 0;
+        }
         set_pwm_div();
     }
 
@@ -248,6 +252,10 @@ class Manager {
         return _duty;
     }
 
+    void set_frac_div(bool allow) {
+        allow_frac_div = allow;
+    }
+
    private:
     void setup_pwm() {
         pwm_set_wrap(_slice, _wrap - 1);
@@ -256,7 +264,11 @@ class Manager {
     }
 
     void set_pwm_div() {
-        pwm_set_clkdiv_int_frac(_slice, _div.int_div, _div.frac_div);
+        if (!allow_frac_div) {
+            pwm_set_clkdiv_int_frac(_slice, _div.int_div, 0);
+        } else {
+            pwm_set_clkdiv_int_frac(_slice, _div.int_div, _div.frac_div);
+        }
     }
 
     void update_pwm_duty() {
@@ -274,6 +286,7 @@ class Manager {
     }
 
    private:
+    bool allow_frac_div;
     uint _pwm_pin;
     duty_t _duty;
     mode_t _current_mode;

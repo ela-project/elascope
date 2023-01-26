@@ -1,4 +1,6 @@
 #pragma once
+#include <etl/string.h>
+#include <etl/string_view.h>
 #include <etl/type_traits.h>
 #include "posc_comms.hpp"
 
@@ -83,6 +85,23 @@ class DataPlotterStream {
         send_char_cmd(_cmd_echo, data, SIZE - 1);
     }
 
+    void clear_channel_data(const etl::istring& channel) const {
+        constexpr char start[]{_cmd[0], _cmd[1], _cmd_channel};
+        _usb_stream.send(start, 3);
+        _usb_stream.send(channel.c_str(), channel.size());
+        static constexpr etl::string_view temp{"0,0;U1;"};
+        _usb_stream.send(temp.begin(), temp.size());
+    }
+
+    template <typename T>
+    void send_channel_data(const etl::istring& channel, const float time_step, const uint32_t length, const uint8_t useful_bits, const float min,
+                           const float max, const uint32_t zero_index, const T* data) const {
+        constexpr char start[]{_cmd[0], _cmd[1], _cmd_channel};
+        _usb_stream.send(start, 3);
+        _usb_stream.send(channel.c_str(), channel.size());
+        send_channel_data_numbers(time_step, length, useful_bits, min, max, zero_index, data);
+    }
+
     template <typename T, size_t CHANNEl_CHAR_SIZE>
     void send_channel_data(const char (&channel)[CHANNEl_CHAR_SIZE], const float time_step, const uint32_t length, const uint8_t useful_bits, const float min,
                            const float max, const uint32_t zero_index, const T* data) const {
@@ -90,6 +109,15 @@ class DataPlotterStream {
         _usb_stream.send(start, 3);
         _usb_stream.send(channel, CHANNEl_CHAR_SIZE - 1);
         send_channel_data_numbers(time_step, length, useful_bits, min, max, zero_index, data);
+    }
+
+    template <typename T>
+    void send_channel_data_two(const etl::istring& channel, const float time_step, const uint32_t length1, const uint32_t length2, const uint8_t useful_bits,
+                               const float min, const float max, const uint32_t zero_index, const T* data1, const T* data2) const {
+        constexpr char start[]{_cmd[0], _cmd[1], _cmd_channel};
+        _usb_stream.send(start, 3);
+        _usb_stream.send(channel.c_str(), channel.size());
+        send_channel_data_numbers_two(time_step, length1, length2, useful_bits, min, max, zero_index, data1, data2);
     }
 
     template <typename T, size_t CHANNEl_CHAR_SIZE>
@@ -253,4 +281,4 @@ class DataPlotterStream {
     static constexpr char _cmd_unknown{'U'};
 };
 
-}  // namespace dpcode
+}  // namespace comm

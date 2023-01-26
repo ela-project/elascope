@@ -1,5 +1,7 @@
 #pragma once
 #include <etl/iterator.h>
+#include <etl/string_view.h>
+#include <etl/optional.h>
 #include <stdint.h>
 #include "hardware/structs/iobank0.h"
 #include "posc_dataplotter_stream.hpp"
@@ -27,10 +29,18 @@ class StaticPart {
           _dynamic_part{dynamic_part} {
     }
 
+    void set_static_part(etl::string_view str, etl::optional<size_t> number_of_lines = etl::nullopt) {
+        _static_part = str.begin();
+        _static_part_size = str.size();
+        if (number_of_lines.has_value()) {
+            _number_of_lines = number_of_lines.value();
+        }
+    }
+
    private:
-    const char* const _static_part;
-    const size_t _static_part_size;
-    const size_t _number_of_lines;
+    const char* _static_part;
+    size_t _static_part_size;
+    size_t _number_of_lines;
     StaticPart* _next;
     StaticPart* _previous;
     DynamicPart* _dynamic_part;
@@ -198,7 +208,7 @@ class Terminal {
     static constexpr size_t tx_buffer_size{200};
     static constexpr uint8_t help_screen{0};
     static constexpr uint8_t start_screen{1};
-    static constexpr uint8_t number_of_screens{3};
+    static constexpr uint8_t number_of_screens{4};
 
    private:
     char tx_buffer[tx_buffer_size];

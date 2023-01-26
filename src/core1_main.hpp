@@ -74,6 +74,7 @@ class DataForCore0 : public MulticoreData {
     size_t array1_samples;
     size_t array2_samples;
     size_t trigger_index;
+    uint32_t first_channel;
     uint16_t *array1_start;
 };
 
@@ -89,6 +90,7 @@ class DataForCore1 : public MulticoreData {
     size_t posttrigger_samples;
     size_t number_of_samples;
     uint32_t adc_div;
+    uint number_of_channels;
     TriggerSettings trigger_settings;
 };
 

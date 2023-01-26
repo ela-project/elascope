@@ -1,15 +1,20 @@
 #ifndef _VERSION_H
 #define _VERSION_H
 
-#cmakedefine PROJECT_VERSION "@PROJECT_VERSION@ (@CMAKE_BUILD_TYPE@)"
+#cmakedefine PROJECT_VERSION "@PROJECT_VERSION@@VERSION_SUFFIX@"
+#cmakedefine CMAKE_BUILD_TYPE "@CMAKE_BUILD_TYPE@"
 #cmakedefine COMPILE_DATE "@COMPILE_DATE@"
 
-#ifndef POSC_VERSION
-#define POSC_VERSION "NaN"
+#ifndef PROJECT_VERSION
+#define PROJECT_VERSION "NaN"
 #endif
 
-#ifndef POSC_DATE
-#define POSC_DATE "00.00.0000"
+#ifndef CMAKE_BUILD_TYPE
+#define CMAKE_BUILD_TYPE "Unknown"
+#endif
+
+#ifndef COMPILE_DATE
+#define COMPILE_DATE "00.00.0000"
 #endif
 
 #endif

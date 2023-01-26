@@ -2,6 +2,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
+#include <etl/binary.h>
+
 #include "hardware/adc.h"
 #include "hardware/clocks.h"
 
@@ -77,6 +79,24 @@ inline uint32_t div_from_samplerate(float samplerate) {
     float div{adc_clk / samplerate};
     if (div > adc::max_adc_div) div = adc::max_adc_div;
     return div_u32_from_float(div);
+}
+
+inline uint32_t get_round_robin_mask(uint number_of_channels) {
+    if (number_of_channels > 1) {
+        number_of_channels = etl::min(number_of_channels, 4U);  // Limit to 4 channels
+        return etl::make_lsb_mask<uint32_t>(number_of_channels);
+    } else {
+        return 0x0U;
+    }
+}
+
+inline size_t get_round_robin_index_divider(uint number_of_channels){
+    if (number_of_channels > 1) {
+        number_of_channels = etl::min(number_of_channels, 4U);  // Limit to 4 channels
+        return number_of_channels;
+    } else {
+        return 1;
+    }
 }
 
 }  // namespace adc
