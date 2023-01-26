@@ -211,22 +211,30 @@ int main() {
                     uint8_t useful_bits = static_cast<uint8_t>(adc::sampling_size_t::U12);
                     static uint number_of_channels_before = 1;
 
-                    etl::string<12> channels{"1"};
+                    etl::string<12> channels{};
+
+                    etl::to_string(datac0_glob.first_channel, channels, false);
+
+                    dataplotter.send_info(channels.c_str(), channels.size());
+
+                    etl::to_string(datac0_glob.first_channel + 1, channels, false);
                     if (datac1_glob.number_of_channels > 1) {
-                        for (uint i{2}; i <= datac1_glob.number_of_channels; ++i) {
+                        for (uint i{1}; i < datac1_glob.number_of_channels; ++i) {
                             channels.push_back('+');
-                            etl::to_string(i, channels, true);
+                            etl::to_string(((i + datac0_glob.first_channel) % datac1_glob.number_of_channels) + 1, channels, true);
                         }
                     }
 
                     channels.push_back(',');
+
+                    dataplotter.send_info(channels.c_str(), channels.size());
 
                     if (number_of_channels_before > datac1_glob.number_of_channels && number_of_channels_before > 1) {
                         etl::string<12> clear_channels{};
                         etl::to_string(number_of_channels_before, clear_channels, true);
                         uint last_channel = etl::min(datac1_glob.number_of_channels, 1U);  // Handle number_of_channels = 0
                         for (uint i{number_of_channels_before - 1}; i > last_channel; --i) {
-                            channels.push_back('+');
+                            clear_channels.push_back('+');
                             etl::to_string(i, clear_channels, true);
                         }
                         clear_channels.push_back(',');
@@ -239,10 +247,10 @@ int main() {
 
                     if (datac0_glob.array2_samples > 0) {
                         dataplotter.send_channel_data_two(channels, time_step, datac0_glob.array1_samples, datac0_glob.array2_samples, useful_bits, 0.0f, 3.3f,
-                                                          datac0_glob.trigger_index/trigger_div, datac0_glob.array1_start, adc_buffer_u16);
+                                                          datac0_glob.trigger_index / trigger_div, datac0_glob.array1_start, adc_buffer_u16);
                     } else {
-                        dataplotter.send_channel_data(channels, time_step, datac0_glob.array1_samples, useful_bits, 0.0f, 3.3f, datac0_glob.trigger_index/trigger_div,
-                                                      datac0_glob.array1_start);
+                        dataplotter.send_channel_data(channels, time_step, datac0_glob.array1_samples, useful_bits, 0.0f, 3.3f,
+                                                      datac0_glob.trigger_index / trigger_div, datac0_glob.array1_start);
                     }
 
 #ifndef NDEBUG

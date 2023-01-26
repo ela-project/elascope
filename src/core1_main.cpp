@@ -184,13 +184,13 @@ void core1_main() {
             /*
              * Check for Trigger
              */
-             const uint32_t tx_count = dma::get_transfer_count(adc_chan);
+            const uint32_t tx_count = dma::get_transfer_count(adc_chan);
             if (current_tx_count != tx_count) {
                 uint32_t diff{0};
-                if(tx_count < current_tx_count){
-                    diff = adc_buffer_size_u16 - current_tx_count + tx_count;
+                if (current_tx_count < tx_count) {
+                    diff = adc_buffer_size_u16 - tx_count + current_tx_count;
                 } else {
-                    diff = tx_count - current_tx_count;
+                    diff = current_tx_count - tx_count;
                 }
                 current_tx_count = tx_count;
 
@@ -251,6 +251,7 @@ void core1_main() {
                 debug_data.adc_running = false;
 #endif
                 const uint32_t sum_samples = pretrig_samples + posttrig_samples;
+                datac0_private.first_channel = 0;
                 if (trigger_detected && array_index >= pretrig_samples) {
                     if (second_cycle_tx_count) {
                         const uint32_t first_cycle_samples = sum_samples - second_cycle_tx_count;
