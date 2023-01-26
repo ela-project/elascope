@@ -136,6 +136,8 @@ void core1_main() {
 
                 trigger_channel_index_div = adc::get_round_robin_index_divider(datac1_glob.number_of_channels);
 
+                current_channel = trigger_channel_index_div - 1;
+
                 datac1_glob.unlock();
 
                 dma_channel_configure(adc_chan, &adc_chan_cfg, adc_buffer_addr, &(adc_hw->fifo), adc_buffer_size_u16, false);
@@ -182,11 +184,17 @@ void core1_main() {
             /*
              * Check for Trigger
              */
-            if (current_tx_count != dma::get_transfer_count(adc_chan)) {
-                current_tx_count = dma::get_transfer_count(adc_chan);
+             const uint32_t tx_count = dma::get_transfer_count(adc_chan);
+            if (current_tx_count != tx_count) {
+                uint32_t diff{0};
+                if(tx_count < current_tx_count){
+                    diff = adc_buffer_size_u16 - current_tx_count + tx_count;
+                } else {
+                    diff = tx_count - current_tx_count;
+                }
+                current_tx_count = tx_count;
 
-                // TODO: Solve for edge case where processor misses a sample
-                current_channel = (current_channel + 1) % trigger_channel_index_div;
+                current_channel = (current_channel + diff) % trigger_channel_index_div;
 
                 if (wait_for_next_cycle && current_tx_count > end_tx_count) {
                     wait_for_next_cycle = false;
