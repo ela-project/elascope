@@ -208,7 +208,7 @@ int main() {
                 if (c1msg == ADC_DONE) {
                     datac0_glob.lock_blocking();
                     datac1_glob.lock_blocking();
-                    float time_step = 1.0f / adc::samplerate_form_div(datac1_glob.adc_div);
+                    float time_step = (1.0f / adc::samplerate_form_div(datac1_glob.adc_div)) * datac1_glob.number_of_channels;
                     uint8_t useful_bits = static_cast<uint8_t>(adc::sampling_size_t::U12);
                     static uint number_of_channels_before = 1;
 
