@@ -75,8 +75,8 @@ dt::StaticPart dtsamplerate_part{10,
 dt::FloatNumber dtsamplerate_disp{1, 1, 4, 14 - 4, adc::get_samplerate()};
 dt::StaticPart dtsamplerate_disp_part{3, "Freq (Hz):", &dtsamplerate_disp};
 
-dt::MultiButton dtsample_buff_selector{2, 1, "KLMN", selector_sample_size_default, comm::ansi::btn_pressed_str_green};
-dt::StaticPart dtsample_buff_part{6,
+dt::MultiButton dtsample_buff_selector{2, 1, "KLMNOPQ", selector_sample_size_default, comm::ansi::btn_pressed_str_green};
+dt::StaticPart dtsample_buff_part{9,
                                   one_channel_sample_buff,
                                   &dtsample_buff_selector};
 

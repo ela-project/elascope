@@ -64,28 +64,34 @@ inline constexpr char two_channel_samplerate[]{
     "\e[1E\e[3C  5 kHz"
     "\e[1E\e[3C 10 kHz"
     "\e[1E\e[3C 25 kHz"
-    "\e[1E\e[3C 25 kHz"
+    "\e[1E\e[3C 50 kHz"
     "\e[1E\e[3C100 kHz"
     "\e[1E\e[3C250 kHz"};
 
 inline constexpr etl::array<etl::string_view, max_num_of_channels> channel_samplerate_strs{one_channel_samplerate, two_channel_samplerate};
 
-inline constexpr size_t selector_sample_size[]{1024, 2048, 4096, 8192};
+inline constexpr size_t selector_sample_size[]{1000, 2000, 5000, 10000, 20000, 50000, 100000};
 inline constexpr size_t selector_sample_size_default{0};
 extern dt::MultiButton dtsample_buff_selector;
 
 inline constexpr char one_channel_sample_buff[]{
     "Samples:"
-    "\e[1E\e[3C1024"
-    "\e[1E\e[3C2048"
-    "\e[1E\e[3C4096"
-    "\e[1E\e[3C8192"};
+    "\e[1E\e[3C  1000"
+    "\e[1E\e[3C  2000"
+    "\e[1E\e[3C  5000"
+    "\e[1E\e[3C 10000"
+    "\e[1E\e[3C 20000"
+    "\e[1E\e[3C 50000"
+    "\e[1E\e[3C100000"};
 inline constexpr char two_channel_sample_buff[]{
     "Samples:"
-    "\e[1E\e[3C 512"
-    "\e[1E\e[3C1024"
-    "\e[1E\e[3C2048"
-    "\e[1E\e[3C4096"};
+    "\e[1E\e[3C   500"
+    "\e[1E\e[3C  1000"
+    "\e[1E\e[3C  2000"
+    "\e[1E\e[3C  5000"
+    "\e[1E\e[3C 10000"
+    "\e[1E\e[3C 20000"
+    "\e[1E\e[3C 50000"};
 inline constexpr etl::array<etl::string_view, max_num_of_channels> channel_sample_buff_strs{one_channel_sample_buff, two_channel_sample_buff};
 
 extern dt::StaticPart dtsample_buff_part;

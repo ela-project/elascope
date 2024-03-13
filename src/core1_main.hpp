@@ -6,7 +6,7 @@
 
 #include "posc_trigger.hpp"
 
-inline constexpr size_t adc_buffer_size_u16{8500};
+inline constexpr size_t adc_buffer_size_u16{110000};
 extern uint16_t adc_buffer_u16[adc_buffer_size_u16];
 
 void core1_main();
@@ -20,7 +20,7 @@ struct debug_data_t {
     uint32_t second_cycle;
     uint32_t array_index;
 
-    void clear(){
+    void clear() {
         adc_running = true;
         trigger_detected = false;
         adc_done = false;
