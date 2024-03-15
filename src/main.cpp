@@ -184,8 +184,9 @@ int main() {
                 usb_was_connected = true;
                 dterminal.set_screen(s0::index);
                 gpio_put(led_pin, true);
-                busy_wait_ms(1);
+                busy_wait_ms(2);
                 dataplotter.send_info("Connected");
+                busy_wait_ms(1);
                 dataplotter.send_setting("noclickclr:40,48.5.31,48.5.160,48.5.164");
                 busy_wait_ms(1);
                 dterminal.print_static_elements(true);

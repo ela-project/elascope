@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.16)
 
 include(lib/pico-sdk/pico_sdk_init.cmake)
 
-project(elascope VERSION 0.7.0)
+project(elascope VERSION 0.7.1)
 
 
 
